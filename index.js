@@ -108,7 +108,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     districtReportEl.style.display = 'block';
   }
 
-  // ✅ Default swing view
+  // ✅ Default swing view — NO AUTO-SCROLL here
   function applyClear() {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.US_totals);
@@ -116,9 +116,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     renderCards(districts.filter(d => d.is_target_district));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
-
-    // ✅ Scroll to cards
-    cardsContainer.scrollIntoView({ behavior: 'smooth' });
   }
 
   // ✅ Render default swing cards
@@ -160,7 +157,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
 
-    // ✅ Scroll to new cards
     cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
@@ -173,7 +169,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
 
-    // ✅ Scroll to new cards
     cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
@@ -188,7 +183,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateCounters(totals.states[st] || {});
     districtReportEl.style.display = 'none';
 
-    // Show state report
     showStateReport(st);
     stateReportEl.scrollIntoView({ behavior: 'smooth' });
 
