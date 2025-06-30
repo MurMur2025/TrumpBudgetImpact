@@ -168,7 +168,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     districtReportEl.style.display = 'none';
   });
 
-  // ✅ When you pick a STATE: show report & dropdown only!
+  // ✅ When you pick a STATE: show report & dropdown, and scroll to state report!
   stateSelect.addEventListener('change', () => {
     const st = stateSelect.value;
     if (!st) {
@@ -179,10 +179,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateCounters(totals.states[st] || {});
     districtReportEl.style.display = 'none';
 
-    // ✅ Always show state report first
+    // Show state report
     showStateReport(st);
+    // ✅ Scroll to state report
+    stateReportEl.scrollIntoView({ behavior: 'smooth' });
 
-    // ✅ Then show swing districts as dropdown
     const swings = districts.filter(d => d.district.startsWith(st) && d.is_target_district);
 
     if (swings.length) {
@@ -211,7 +212,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  // ✅ District select: direct to full page
+  // ✅ When you pick a DISTRICT: show full report + scroll to it!
   districtSelect.addEventListener('change', () => {
     const code = districtSelect.value;
     if (!code) {
@@ -227,7 +228,10 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
     cardsContainer.style.display = 'none';
     stateReportEl.style.display = 'none';
+
     showDistrictReport(code);
+    // ✅ Scroll to district report
+    districtReportEl.scrollIntoView({ behavior: 'smooth' });
   });
 
   clearFiltersBtn.addEventListener('click', applyClear);
