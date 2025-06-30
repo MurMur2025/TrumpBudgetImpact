@@ -1,0 +1,574 @@
+{
+  "US_totals": {
+    "total_households": 125776684.0,
+    "total_medicaid": 49900000.0,
+    "total_kids": 25510100.0,
+    "snap_households": 15619182.0,
+    "snap_percent": 53.67315977852893,
+    "veteran_population": 17615006.0,
+    "farm_producers": 3372485.0,
+    "total_farms": 1899650.0
+  },
+  "states": {
+    "AK": {
+      "total_households": 271311.0,
+      "total_medicaid": 118400.0,
+      "total_kids": 59700.0,
+      "snap_households": 28273.0,
+      "snap_percent": 0.1042088230849468,
+      "veteran_population": 62744.0,
+      "farm_producers": 2045.0,
+      "total_farms": 1173.0
+    },
+    "AL": {
+      "total_households": 1967559.0,
+      "total_medicaid": 711100.0,
+      "total_kids": 482100.0,
+      "snap_households": 277305.0,
+      "snap_percent": 0.9887471358066845,
+      "veteran_population": 343000.0,
+      "farm_producers": 62777.0,
+      "total_farms": 37362.0
+    },
+    "AR": {
+      "total_households": 580148.0,
+      "total_medicaid": 576200.0,
+      "total_kids": 318700.0,
+      "snap_households": 79572.0,
+      "snap_percent": 0.2744183711535658,
+      "veteran_population": 203085.0,
+      "farm_producers": 67425.0,
+      "total_farms": 37756.0
+    },
+    "AS": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "AZ": {
+      "total_households": 2533063.0,
+      "total_medicaid": 901500.0,
+      "total_kids": 431200.0,
+      "snap_households": 252314.0,
+      "snap_percent": 0.8156731486210689,
+      "veteran_population": 429242.0,
+      "farm_producers": 27698.0,
+      "total_farms": 15969.0
+    },
+    "CA": {
+      "total_households": 13429063.0,
+      "total_medicaid": 7877200.0,
+      "total_kids": 3383800.0,
+      "snap_households": 1611374.0,
+      "snap_percent": 6.401483420357156,
+      "veteran_population": 1474930.0,
+      "farm_producers": 119923.0,
+      "total_farms": 63134.0
+    },
+    "CO": {
+      "total_households": 2313042.0,
+      "total_medicaid": 793600.0,
+      "total_kids": 374100.0,
+      "snap_households": 193909.0,
+      "snap_percent": 0.6712437593673829,
+      "veteran_population": 368109.0,
+      "farm_producers": 67852.0,
+      "total_farms": 36056.0
+    },
+    "CT": {
+      "total_households": 1428313.0,
+      "total_medicaid": 570600.0,
+      "total_kids": 245500.0,
+      "snap_households": 166847.0,
+      "snap_percent": 0.5829774314825351,
+      "veteran_population": 152198.0,
+      "farm_producers": 9374.0,
+      "total_farms": 5058.0
+    },
+    "DC": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "DE": {
+      "total_households": 395656.0,
+      "total_medicaid": 152600.0,
+      "total_kids": 73300.0,
+      "snap_households": 41430.0,
+      "snap_percent": 0.1047121742119417,
+      "veteran_population": 0.0,
+      "farm_producers": 3812.0,
+      "total_farms": 2158.0
+    },
+    "FL": {
+      "total_households": 8565329.0,
+      "total_medicaid": 2652100.0,
+      "total_kids": 1633200.0,
+      "snap_households": 1207846.0,
+      "snap_percent": 4.035335121261375,
+      "veteran_population": 1412963.0,
+      "farm_producers": 79253.0,
+      "total_farms": 44703.0
+    },
+    "GA": {
+      "total_households": 4001109.0,
+      "total_medicaid": 1416000.0,
+      "total_kids": 971000.0,
+      "snap_households": 496199.0,
+      "snap_percent": 1.7309867415797868,
+      "veteran_population": 662380.0,
+      "farm_producers": 67082.0,
+      "total_farms": 39264.0
+    },
+    "GU": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "HI": {
+      "total_households": 490080.0,
+      "total_medicaid": 191900.0,
+      "total_kids": 85700.0,
+      "snap_households": 61855.0,
+      "snap_percent": 0.254340561665644,
+      "veteran_population": 111345.0,
+      "farm_producers": 11833.0,
+      "total_farms": 6569.0
+    },
+    "IA": {
+      "total_households": 1300467.0,
+      "total_medicaid": 446000.0,
+      "total_kids": 233800.0,
+      "snap_households": 127927.0,
+      "snap_percent": 0.3935281893778331,
+      "veteran_population": 181635.0,
+      "farm_producers": 153680.0,
+      "total_farms": 86911.0
+    },
+    "ID": {
+      "total_households": 693882.0,
+      "total_medicaid": 250200.0,
+      "total_kids": 137300.0,
+      "snap_households": 58148.0,
+      "snap_percent": 0.16781157731924248,
+      "veteran_population": 122283.0,
+      "farm_producers": 43333.0,
+      "total_farms": 22877.0
+    },
+    "IL": {
+      "total_households": 4991641.0,
+      "total_medicaid": 1848700.0,
+      "total_kids": 901500.0,
+      "snap_households": 703195.0,
+      "snap_percent": 2.397432205346691,
+      "veteran_population": 621231.0,
+      "farm_producers": 121342.0,
+      "total_farms": 71123.0
+    },
+    "IN": {
+      "total_households": 2680694.0,
+      "total_medicaid": 1056700.0,
+      "total_kids": 534900.0,
+      "snap_households": 251507.0,
+      "snap_percent": 0.8415741514211831,
+      "veteran_population": 371367.0,
+      "farm_producers": 94282.0,
+      "total_farms": 53599.0
+    },
+    "KS": {
+      "total_households": 1159026.0,
+      "total_medicaid": 283900.0,
+      "total_kids": 188400.0,
+      "snap_households": 85015.0,
+      "snap_percent": 0.2947584886468035,
+      "veteran_population": 181272.0,
+      "farm_producers": 100655.0,
+      "total_farms": 55734.0
+    },
+    "KY": {
+      "total_households": 1785682.0,
+      "total_medicaid": 939300.0,
+      "total_kids": 434900.0,
+      "snap_households": 254134.0,
+      "snap_percent": 0.8599540853049297,
+      "veteran_population": 262159.0,
+      "farm_producers": 119132.0,
+      "total_farms": 69425.0
+    },
+    "LA": {
+      "total_households": 1783924.0,
+      "total_medicaid": 1086900.0,
+      "total_kids": 539700.0,
+      "snap_households": 339324.0,
+      "snap_percent": 1.144661803193596,
+      "veteran_population": 257381.0,
+      "farm_producers": 42551.0,
+      "total_farms": 25006.0
+    },
+    "MA": {
+      "total_households": 2759018.0,
+      "total_medicaid": 1099900.0,
+      "total_kids": 411800.0,
+      "snap_households": 402694.0,
+      "snap_percent": 1.3150326017850265,
+      "veteran_population": 273932.0,
+      "farm_producers": 13284.0,
+      "total_farms": 7083.0
+    },
+    "MD": {
+      "total_households": 2355652.0,
+      "total_medicaid": 839100.0,
+      "total_kids": 405700.0,
+      "snap_households": 297705.0,
+      "snap_percent": 0.9987051177019777,
+      "veteran_population": 360097.0,
+      "farm_producers": 23507.0,
+      "total_farms": 12550.0
+    },
+    "ME": {
+      "total_households": 593626.0,
+      "total_medicaid": 184100.0,
+      "total_kids": 77600.0,
+      "snap_households": 68159.0,
+      "snap_percent": 0.2290817512593386,
+      "veteran_population": 106834.0,
+      "farm_producers": 13053.0,
+      "total_farms": 7036.0
+    },
+    "MI": {
+      "total_households": 4051798.0,
+      "total_medicaid": 1661900.0,
+      "total_kids": 704200.0,
+      "snap_households": 543678.0,
+      "snap_percent": 1.7508349016021423,
+      "veteran_population": 499735.0,
+      "farm_producers": 80473.0,
+      "total_farms": 45581.0
+    },
+    "MN": {
+      "total_households": 2281033.0,
+      "total_medicaid": 763900.0,
+      "total_kids": 348300.0,
+      "snap_households": 179409.0,
+      "snap_percent": 0.6228371949977285,
+      "veteran_population": 295704.0,
+      "farm_producers": 114868.0,
+      "total_farms": 65531.0
+    },
+    "MO": {
+      "total_households": 2468726.0,
+      "total_medicaid": 790500.0,
+      "total_kids": 459700.0,
+      "snap_households": 251294.0,
+      "snap_percent": 0.8078694238844306,
+      "veteran_population": 391556.0,
+      "farm_producers": 156652.0,
+      "total_farms": 87887.0
+    },
+    "MP": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "MS": {
+      "total_households": 1129611.0,
+      "total_medicaid": 468900.0,
+      "total_kids": 314000.0,
+      "snap_households": 152936.0,
+      "snap_percent": 0.5433417751667639,
+      "veteran_population": 182437.0,
+      "farm_producers": 52025.0,
+      "total_farms": 31290.0
+    },
+    "MT": {
+      "total_households": 448949.0,
+      "total_medicaid": 175600.0,
+      "total_kids": 85200.0,
+      "snap_households": 38805.0,
+      "snap_percent": 0.1730364295580371,
+      "veteran_population": 88542.0,
+      "farm_producers": 45058.0,
+      "total_farms": 24266.0
+    },
+    "NC": {
+      "total_households": 4179632.0,
+      "total_medicaid": 1427300.0,
+      "total_kids": 901100.0,
+      "snap_households": 581838.0,
+      "snap_percent": 1.94729909907673,
+      "veteran_population": 688934.0,
+      "farm_producers": 72479.0,
+      "total_farms": 42817.0
+    },
+    "ND": {
+      "total_households": 322511.0,
+      "total_medicaid": 63000.0,
+      "total_kids": 32900.0,
+      "snap_households": 19949.0,
+      "snap_percent": 0.06185525454945723,
+      "veteran_population": 0.0,
+      "farm_producers": 43560.0,
+      "total_farms": 25068.0
+    },
+    "NE": {
+      "total_households": 785982.0,
+      "total_medicaid": 215500.0,
+      "total_kids": 128500.0,
+      "snap_households": 66510.0,
+      "snap_percent": 0.2539162059916671,
+      "veteran_population": 120419.0,
+      "farm_producers": 80283.0,
+      "total_farms": 44479.0
+    },
+    "NH": {
+      "total_households": 548026.0,
+      "total_medicaid": 129900.0,
+      "total_kids": 66100.0,
+      "snap_households": 32970.0,
+      "snap_percent": 0.12043038297606096,
+      "veteran_population": 92891.0,
+      "farm_producers": 7209.0,
+      "total_farms": 3949.0
+    },
+    "NJ": {
+      "total_households": 3497945.0,
+      "total_medicaid": 1290500.0,
+      "total_kids": 634500.0,
+      "snap_households": 319533.0,
+      "snap_percent": 1.0964215510460116,
+      "veteran_population": 307612.0,
+      "farm_producers": 18591.0,
+      "total_farms": 9998.0
+    },
+    "NM": {
+      "total_households": 834007.0,
+      "total_medicaid": 523800.0,
+      "total_kids": 252200.0,
+      "snap_households": 172624.0,
+      "snap_percent": 0.6271693198987313,
+      "veteran_population": 153411.0,
+      "farm_producers": 37023.0,
+      "total_farms": 20976.0
+    },
+    "NV": {
+      "total_households": 1191380.0,
+      "total_medicaid": 452900.0,
+      "total_kids": 228000.0,
+      "snap_households": 161938.0,
+      "snap_percent": 0.5498826418711786,
+      "veteran_population": 208680.0,
+      "farm_producers": 5708.0,
+      "total_farms": 3122.0
+    },
+    "NY": {
+      "total_households": 7652666.0,
+      "total_medicaid": 3873900.0,
+      "total_kids": 1538300.0,
+      "snap_households": 1145332.0,
+      "snap_percent": 3.896008871178236,
+      "veteran_population": 662404.0,
+      "farm_producers": 57558.0,
+      "total_farms": 30650.0
+    },
+    "OH": {
+      "total_households": 4832922.0,
+      "total_medicaid": 1850800.0,
+      "total_kids": 877300.0,
+      "snap_households": 626498.0,
+      "snap_percent": 1.9295599353814337,
+      "veteran_population": 669182.0,
+      "farm_producers": 132912.0,
+      "total_farms": 76009.0
+    },
+    "OK": {
+      "total_households": 1547967.0,
+      "total_medicaid": 688800.0,
+      "total_kids": 413700.0,
+      "snap_households": 213317.0,
+      "snap_percent": 0.6911212541377187,
+      "veteran_population": 282483.0,
+      "farm_producers": 124743.0,
+      "total_farms": 70378.0
+    },
+    "OR": {
+      "total_households": 1702599.0,
+      "total_medicaid": 703800.0,
+      "total_kids": 296000.0,
+      "snap_households": 270963.0,
+      "snap_percent": 0.9563777889941227,
+      "veteran_population": 265757.0,
+      "farm_producers": 68564.0,
+      "total_farms": 35547.0
+    },
+    "PA": {
+      "total_households": 5228956.0,
+      "total_medicaid": 1865300.0,
+      "total_kids": 884900.0,
+      "snap_households": 737503.0,
+      "snap_percent": 2.3848157063188284,
+      "veteran_population": 688198.0,
+      "farm_producers": 90032.0,
+      "total_farms": 49053.0
+    },
+    "PR": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "RI": {
+      "total_households": 440170.0,
+      "total_medicaid": 156500.0,
+      "total_kids": 63100.0,
+      "snap_households": 65724.0,
+      "snap_percent": 0.2991255628849673,
+      "veteran_population": 55004.0,
+      "farm_producers": 1938.0,
+      "total_farms": 1054.0
+    },
+    "SC": {
+      "total_households": 2049972.0,
+      "total_medicaid": 720700.0,
+      "total_kids": 455700.0,
+      "snap_households": 228214.0,
+      "snap_percent": 0.7780300991088301,
+      "veteran_population": 390385.0,
+      "farm_producers": 38097.0,
+      "total_farms": 22633.0
+    },
+    "SD": {
+      "total_households": 356887.0,
+      "total_medicaid": 85000.0,
+      "total_kids": 54900.0,
+      "snap_households": 28623.0,
+      "snap_percent": 0.08020185661007546,
+      "veteran_population": 0.0,
+      "farm_producers": 51071.0,
+      "total_farms": 28299.0
+    },
+    "TN": {
+      "total_households": 2770395.0,
+      "total_medicaid": 980800.0,
+      "total_kids": 596400.0,
+      "snap_households": 330352.0,
+      "snap_percent": 1.0732172257715922,
+      "veteran_population": 434645.0,
+      "farm_producers": 107817.0,
+      "total_farms": 63105.0
+    },
+    "TX": {
+      "total_households": 10517628.0,
+      "total_medicaid": 3422900.0,
+      "total_kids": 2475200.0,
+      "snap_households": 1263606.0,
+      "snap_percent": 4.558802827602254,
+      "veteran_population": 1512973.0,
+      "farm_producers": 402794.0,
+      "total_farms": 230617.0
+    },
+    "UT": {
+      "total_households": 1101499.0,
+      "total_medicaid": 249500.0,
+      "total_kids": 134900.0,
+      "snap_households": 61790.0,
+      "snap_percent": 0.2224551577930695,
+      "veteran_population": 129783.0,
+      "farm_producers": 33270.0,
+      "total_farms": 17386.0
+    },
+    "VA": {
+      "total_households": 3049786.0,
+      "total_medicaid": 996900.0,
+      "total_kids": 492500.0,
+      "snap_households": 285365.0,
+      "snap_percent": 0.9194193557009256,
+      "veteran_population": 637850.0,
+      "farm_producers": 67723.0,
+      "total_farms": 38944.0
+    },
+    "VI": {
+      "total_households": 0.0,
+      "total_medicaid": 0.0,
+      "total_kids": 0.0,
+      "snap_households": 0.0,
+      "snap_percent": 0.0,
+      "veteran_population": 0.0,
+      "farm_producers": 0.0,
+      "total_farms": 0.0
+    },
+    "VT": {
+      "total_households": 270163.0,
+      "total_medicaid": 101200.0,
+      "total_kids": 42200.0,
+      "snap_households": 29538.0,
+      "snap_percent": 0.1093339946624815,
+      "veteran_population": 0.0,
+      "farm_producers": 12470.0,
+      "total_farms": 6537.0
+    },
+    "WA": {
+      "total_households": 3022255.0,
+      "total_medicaid": 1144100.0,
+      "total_kids": 568900.0,
+      "snap_households": 372583.0,
+      "snap_percent": 1.2467964792570905,
+      "veteran_population": 509863.0,
+      "farm_producers": 60453.0,
+      "total_farms": 32076.0
+    },
+    "WI": {
+      "total_households": 2449970.0,
+      "total_medicaid": 721500.0,
+      "total_kids": 353100.0,
+      "snap_households": 288244.0,
+      "snap_percent": 0.9454620185495811,
+      "veteran_population": 327197.0,
+      "farm_producers": 105920.0,
+      "total_farms": 58521.0
+    },
+    "WV": {
+      "total_households": 722201.0,
+      "total_medicaid": 326600.0,
+      "total_kids": 147500.0,
+      "snap_households": 131887.0,
+      "snap_percent": 0.3655617165461632,
+      "veteran_population": 123918.0,
+      "farm_producers": 39109.0,
+      "total_farms": 22787.0
+    },
+    "WY": {
+      "total_households": 242763.0,
+      "total_medicaid": 52000.0,
+      "total_kids": 36900.0,
+      "snap_households": 13427.0,
+      "snap_percent": 0.05530908746390512,
+      "veteran_population": 0.0,
+      "farm_producers": 20192.0,
+      "total_farms": 10544.0
+    }
+  }
+}
