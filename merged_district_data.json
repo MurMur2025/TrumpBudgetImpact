@@ -42,27 +42,6 @@
     "is_agriculture_dependent": false
   },
   {
-    "district": "OR05",
-    "rep_name": "Janelle Bynum",
-    "bill_support_status": "opposes",
-    "Party": "D",
-    "total_households": 281118.0,
-    "total_medicaid": 98000.0,
-    "total_kids": 41400.0,
-    "snap_households": 34883.0,
-    "snap_percent": 0.124086682460746,
-    "veteran_population": 44300.0,
-    "farm_producers": 13711.0,
-    "total_farms": 7084.0,
-    "rural_classification": "DENSE SUBURBAN",
-    "is_rural": 0.0,
-    "is_target_district": true,
-    "is_medicaid_reliant": true,
-    "is_snap_heavy": false,
-    "is_veteran_heavy": true,
-    "is_agriculture_dependent": true
-  },
-  {
     "district": "CA41",
     "rep_name": "Ken Calvert",
     "bill_support_status": "supports",
