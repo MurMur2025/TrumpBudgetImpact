@@ -116,6 +116,9 @@ window.addEventListener('DOMContentLoaded', async () => {
     renderCards(districts.filter(d => d.is_target_district));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
+
+    // ✅ Scroll to cards
+    cardsContainer.scrollIntoView({ behavior: 'smooth' });
   }
 
   // ✅ Render default swing cards
@@ -148,7 +151,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // ✅ All Rep-Held filter
+  // ✅ All Republican-Held filter + scroll
   filterRepBtn.addEventListener('click', () => {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.republican_totals);
@@ -156,9 +159,12 @@ window.addEventListener('DOMContentLoaded', async () => {
     renderCards(districts.filter(d => d.Party === 'R'));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
+
+    // ✅ Scroll to new cards
+    cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
-  // ✅ Top swing filter
+  // ✅ Top 50 Swing filter + scroll
   filterSwingBtn.addEventListener('click', () => {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.swing_totals);
@@ -166,9 +172,12 @@ window.addEventListener('DOMContentLoaded', async () => {
     renderCards(districts.filter(d => d.is_target_district));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
+
+    // ✅ Scroll to new cards
+    cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
-  // ✅ When you pick a STATE: show report & dropdown, and scroll to state report!
+  // ✅ State filter: show report + dropdown + scroll
   stateSelect.addEventListener('change', () => {
     const st = stateSelect.value;
     if (!st) {
@@ -181,7 +190,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 
     // Show state report
     showStateReport(st);
-    // ✅ Scroll to state report
     stateReportEl.scrollIntoView({ behavior: 'smooth' });
 
     const swings = districts.filter(d => d.district.startsWith(st) && d.is_target_district);
@@ -212,7 +220,7 @@ window.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  // ✅ When you pick a DISTRICT: show full report + scroll to it!
+  // ✅ District filter: show report + scroll
   districtSelect.addEventListener('change', () => {
     const code = districtSelect.value;
     if (!code) {
@@ -230,7 +238,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     stateReportEl.style.display = 'none';
 
     showDistrictReport(code);
-    // ✅ Scroll to district report
     districtReportEl.scrollIntoView({ behavior: 'smooth' });
   });
 
