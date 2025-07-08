@@ -5,7 +5,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 22000,
-    "jobs_risk": 360
+    "jobs_risk": 360,
+    "is_target_district": false
   },
   {
     "district": "AL-02",
@@ -13,7 +14,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 35000,
-    "jobs_risk": 4392
+    "jobs_risk": 4392,
+    "is_target_district": false
   },
   {
     "district": "AL-03",
@@ -21,7 +23,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 22000,
-    "jobs_risk": 507
+    "jobs_risk": 507,
+    "is_target_district": false
   },
   {
     "district": "AL-04",
@@ -29,7 +32,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 21000,
-    "jobs_risk": 407
+    "jobs_risk": 407,
+    "is_target_district": false
   },
   {
     "district": "AL-05",
@@ -37,7 +41,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 18000,
-    "jobs_risk": 960
+    "jobs_risk": 960,
+    "is_target_district": false
   },
   {
     "district": "AL-06",
@@ -45,7 +50,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 15000,
-    "jobs_risk": 478
+    "jobs_risk": 478,
+    "is_target_district": false
   },
   {
     "district": "AL-07",
@@ -53,7 +59,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 31000,
-    "jobs_risk": 477
+    "jobs_risk": 477,
+    "is_target_district": false
   },
   {
     "district": "AR-01",
@@ -61,7 +68,8 @@
     "party": "Republican",
     "total_medicaid": 34000,
     "snap_households": 19000,
-    "jobs_risk": 2272
+    "jobs_risk": 2272,
+    "is_target_district": false
   },
   {
     "district": "AR-02",
@@ -69,7 +77,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 14000,
-    "jobs_risk": 13
+    "jobs_risk": 13,
+    "is_target_district": false
   },
   {
     "district": "AR-03",
@@ -77,7 +86,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 10000,
-    "jobs_risk": 158
+    "jobs_risk": 158,
+    "is_target_district": false
   },
   {
     "district": "AR-04",
@@ -85,7 +95,8 @@
     "party": "Republican",
     "total_medicaid": 34000,
     "snap_households": 18000,
-    "jobs_risk": 2063
+    "jobs_risk": 2063,
+    "is_target_district": false
   },
   {
     "district": "CA-04",
@@ -93,7 +104,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 14000,
-    "jobs_risk": 209
+    "jobs_risk": 209,
+    "is_target_district": false
   },
   {
     "district": "CA-05",
@@ -101,7 +113,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 14000,
-    "jobs_risk": 639
+    "jobs_risk": 639,
+    "is_target_district": false
   },
   {
     "district": "CA-06",
@@ -109,7 +122,8 @@
     "party": "Democrat",
     "total_medicaid": 33000,
     "snap_households": 21000,
-    "jobs_risk": 181
+    "jobs_risk": 181,
+    "is_target_district": false
   },
   {
     "district": "CA-07",
@@ -117,7 +131,8 @@
     "party": "Democrat",
     "total_medicaid": 30000,
     "snap_households": 23000,
-    "jobs_risk": 451
+    "jobs_risk": 451,
+    "is_target_district": false
   },
   {
     "district": "CA-08",
@@ -125,7 +140,8 @@
     "party": "Democrat",
     "total_medicaid": 29000,
     "snap_households": 18000,
-    "jobs_risk": 286
+    "jobs_risk": 286,
+    "is_target_district": false
   },
   {
     "district": "CA-09",
@@ -133,7 +149,8 @@
     "party": "Democrat",
     "total_medicaid": 33000,
     "snap_households": 22000,
-    "jobs_risk": 363
+    "jobs_risk": 363,
+    "is_target_district": false
   },
   {
     "district": "CA-10",
@@ -141,7 +158,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 7000,
-    "jobs_risk": 102
+    "jobs_risk": 102,
+    "is_target_district": false
   },
   {
     "district": "CA-11",
@@ -149,7 +167,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-12",
@@ -157,7 +176,8 @@
     "party": "Democrat",
     "total_medicaid": 25000,
     "snap_households": 16000,
-    "jobs_risk": 210
+    "jobs_risk": 210,
+    "is_target_district": false
   },
   {
     "district": "CA-13",
@@ -165,7 +185,8 @@
     "party": "Democrat",
     "total_medicaid": 46000,
     "snap_households": 26000,
-    "jobs_risk": 2025
+    "jobs_risk": 2025,
+    "is_target_district": false
   },
   {
     "district": "CA-14",
@@ -173,7 +194,8 @@
     "party": "Democrat",
     "total_medicaid": 19000,
     "snap_households": 11000,
-    "jobs_risk": 570
+    "jobs_risk": 570,
+    "is_target_district": false
   },
   {
     "district": "CA-15",
@@ -181,7 +203,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "AZ-01",
@@ -189,7 +212,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "AZ-02",
@@ -197,7 +221,8 @@
     "party": "Republican",
     "total_medicaid": 41000,
     "snap_households": 25000,
-    "jobs_risk": 1713
+    "jobs_risk": 1713,
+    "is_target_district": true
   },
   {
     "district": "AZ-03",
@@ -205,7 +230,8 @@
     "party": "Democrat",
     "total_medicaid": 61000,
     "snap_households": 36000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "AZ-04",
@@ -213,7 +239,8 @@
     "party": "Democrat",
     "total_medicaid": 30000,
     "snap_households": 14000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "AZ-05",
@@ -221,7 +248,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 11000,
-    "jobs_risk": 8181
+    "jobs_risk": 8181,
+    "is_target_district": false
   },
   {
     "district": "AZ-06",
@@ -229,7 +257,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 17000,
-    "jobs_risk": 4520
+    "jobs_risk": 4520,
+    "is_target_district": true
   },
   {
     "district": "AZ-08",
@@ -237,7 +266,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 14000,
-    "jobs_risk": 356
+    "jobs_risk": 356,
+    "is_target_district": false
   },
   {
     "district": "AZ-09",
@@ -245,7 +275,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 23000,
-    "jobs_risk": 10331
+    "jobs_risk": 10331,
+    "is_target_district": false
   },
   {
     "district": "CA-01",
@@ -253,7 +284,8 @@
     "party": "Republican",
     "total_medicaid": 34000,
     "snap_households": 17000,
-    "jobs_risk": 1304
+    "jobs_risk": 1304,
+    "is_target_district": false
   },
   {
     "district": "CA-02",
@@ -261,7 +293,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 13000,
-    "jobs_risk": 228
+    "jobs_risk": 228,
+    "is_target_district": false
   },
   {
     "district": "CA-03",
@@ -269,7 +302,8 @@
     "party": "Republican",
     "total_medicaid": 16000,
     "snap_households": 9000,
-    "jobs_risk": 1116
+    "jobs_risk": 1116,
+    "is_target_district": false
   },
   {
     "district": "CA-16",
@@ -277,7 +311,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 7000,
-    "jobs_risk": 8
+    "jobs_risk": 8,
+    "is_target_district": false
   },
   {
     "district": "CA-17",
@@ -285,7 +320,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 7000,
-    "jobs_risk": 3246
+    "jobs_risk": 3246,
+    "is_target_district": false
   },
   {
     "district": "CA-18",
@@ -293,7 +329,8 @@
     "party": "Democrat",
     "total_medicaid": 39000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-19",
@@ -301,7 +338,8 @@
     "party": "Democrat",
     "total_medicaid": 19000,
     "snap_households": 8000,
-    "jobs_risk": 685
+    "jobs_risk": 685,
+    "is_target_district": false
   },
   {
     "district": "CA-20",
@@ -309,7 +347,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 20000,
-    "jobs_risk": 6405
+    "jobs_risk": 6405,
+    "is_target_district": false
   },
   {
     "district": "CA-21",
@@ -317,7 +356,8 @@
     "party": "Democrat",
     "total_medicaid": 51000,
     "snap_households": 35000,
-    "jobs_risk": 438
+    "jobs_risk": 438,
+    "is_target_district": false
   },
   {
     "district": "CA-23",
@@ -325,7 +365,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 24000,
-    "jobs_risk": 3016
+    "jobs_risk": 3016,
+    "is_target_district": false
   },
   {
     "district": "CA-24",
@@ -333,7 +374,8 @@
     "party": "Democrat",
     "total_medicaid": 25000,
     "snap_households": 11000,
-    "jobs_risk": 581
+    "jobs_risk": 581,
+    "is_target_district": false
   },
   {
     "district": "CA-25",
@@ -341,7 +383,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 32000,
-    "jobs_risk": 5193
+    "jobs_risk": 5193,
+    "is_target_district": false
   },
   {
     "district": "CA-26",
@@ -349,7 +392,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 11000,
-    "jobs_risk": 321
+    "jobs_risk": 321,
+    "is_target_district": false
   },
   {
     "district": "CA-27",
@@ -357,7 +401,8 @@
     "party": "Democrat",
     "total_medicaid": 31000,
     "snap_households": 18000,
-    "jobs_risk": 1228
+    "jobs_risk": 1228,
+    "is_target_district": false
   },
   {
     "district": "CA-28",
@@ -365,7 +410,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-29",
@@ -373,7 +419,8 @@
     "party": "Democrat",
     "total_medicaid": 39000,
     "snap_households": 24000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-30",
@@ -381,7 +428,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-32",
@@ -389,7 +437,8 @@
     "party": "Democrat",
     "total_medicaid": 21000,
     "snap_households": 11000,
-    "jobs_risk": 5
+    "jobs_risk": 5,
+    "is_target_district": false
   },
   {
     "district": "CA-35",
@@ -397,7 +446,8 @@
     "party": "Democrat",
     "total_medicaid": 34000,
     "snap_households": 20000,
-    "jobs_risk": 260
+    "jobs_risk": 260,
+    "is_target_district": false
   },
   {
     "district": "CA-36",
@@ -405,7 +455,8 @@
     "party": "Democrat",
     "total_medicaid": 12000,
     "snap_households": 6000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-37",
@@ -413,7 +464,8 @@
     "party": "Democrat",
     "total_medicaid": 48000,
     "snap_households": 27000,
-    "jobs_risk": 4714
+    "jobs_risk": 4714,
+    "is_target_district": false
   },
   {
     "district": "CA-38",
@@ -421,7 +473,8 @@
     "party": "Democrat",
     "total_medicaid": 28000,
     "snap_households": 18000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-39",
@@ -429,7 +482,8 @@
     "party": "Democrat",
     "total_medicaid": 35000,
     "snap_households": 18000,
-    "jobs_risk": 7
+    "jobs_risk": 7,
+    "is_target_district": false
   },
   {
     "district": "CA-40",
@@ -437,7 +491,8 @@
     "party": "Republican",
     "total_medicaid": 16000,
     "snap_households": 8000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "CA-41",
@@ -445,7 +500,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 15000,
-    "jobs_risk": 271
+    "jobs_risk": 271,
+    "is_target_district": true
   },
   {
     "district": "CA-42",
@@ -453,7 +509,8 @@
     "party": "Democrat",
     "total_medicaid": 39000,
     "snap_households": 23000,
-    "jobs_risk": 70
+    "jobs_risk": 70,
+    "is_target_district": false
   },
   {
     "district": "CA-43",
@@ -461,7 +518,8 @@
     "party": "Democrat",
     "total_medicaid": 49000,
     "snap_households": 28000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-44",
@@ -469,7 +527,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 25000,
-    "jobs_risk": 21
+    "jobs_risk": 21,
+    "is_target_district": false
   },
   {
     "district": "CA-45",
@@ -477,7 +536,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 17000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-46",
@@ -485,7 +545,8 @@
     "party": "Democrat",
     "total_medicaid": 39000,
     "snap_households": 22000,
-    "jobs_risk": 506
+    "jobs_risk": 506,
+    "is_target_district": false
   },
   {
     "district": "CA-47",
@@ -493,7 +554,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 8000,
-    "jobs_risk": 663
+    "jobs_risk": 663,
+    "is_target_district": false
   },
   {
     "district": "CA-48",
@@ -501,7 +563,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 13000,
-    "jobs_risk": 603
+    "jobs_risk": 603,
+    "is_target_district": false
   },
   {
     "district": "CA-49",
@@ -509,7 +572,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 7000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CA-52",
@@ -517,7 +581,8 @@
     "party": "Democrat",
     "total_medicaid": 35000,
     "snap_households": 22000,
-    "jobs_risk": 185
+    "jobs_risk": 185,
+    "is_target_district": false
   },
   {
     "district": "CO-03",
@@ -525,7 +590,8 @@
     "party": "Republican",
     "total_medicaid": 31000,
     "snap_households": 28000,
-    "jobs_risk": 5087
+    "jobs_risk": 5087,
+    "is_target_district": false
   },
   {
     "district": "CO-07",
@@ -533,7 +599,8 @@
     "party": "Democrat",
     "total_medicaid": 17000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CT-01",
@@ -541,7 +608,8 @@
     "party": "Democrat",
     "total_medicaid": 32000,
     "snap_households": 24000,
-    "jobs_risk": 399
+    "jobs_risk": 399,
+    "is_target_district": false
   },
   {
     "district": "CT-02",
@@ -549,7 +617,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 13000,
-    "jobs_risk": 239
+    "jobs_risk": 239,
+    "is_target_district": false
   },
   {
     "district": "CT-04",
@@ -557,7 +626,8 @@
     "party": "Democrat",
     "total_medicaid": 25000,
     "snap_households": 13000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "CT-05",
@@ -565,7 +635,8 @@
     "party": "Democrat",
     "total_medicaid": 31000,
     "snap_households": 21000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-01",
@@ -573,7 +644,8 @@
     "party": "Republican",
     "total_medicaid": 62000,
     "snap_households": 16000,
-    "jobs_risk": 376
+    "jobs_risk": 376,
+    "is_target_district": false
   },
   {
     "district": "FL-02",
@@ -581,7 +653,8 @@
     "party": "Republican",
     "total_medicaid": 64000,
     "snap_households": 19000,
-    "jobs_risk": 513
+    "jobs_risk": 513,
+    "is_target_district": false
   },
   {
     "district": "FL-03",
@@ -589,7 +662,8 @@
     "party": "Republican",
     "total_medicaid": 66000,
     "snap_households": 28000,
-    "jobs_risk": 511
+    "jobs_risk": 511,
+    "is_target_district": false
   },
   {
     "district": "FL-04",
@@ -597,7 +671,8 @@
     "party": "Republican",
     "total_medicaid": 69000,
     "snap_households": 22000,
-    "jobs_risk": 486
+    "jobs_risk": 486,
+    "is_target_district": false
   },
   {
     "district": "FL-05",
@@ -605,7 +680,8 @@
     "party": "Republican",
     "total_medicaid": 58000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-06",
@@ -613,7 +689,8 @@
     "party": "Republican",
     "total_medicaid": 66000,
     "snap_households": 20000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-07",
@@ -621,7 +698,8 @@
     "party": "Republican",
     "total_medicaid": 61000,
     "snap_households": 16000,
-    "jobs_risk": 38
+    "jobs_risk": 38,
+    "is_target_district": true
   },
   {
     "district": "FL-08",
@@ -629,7 +707,8 @@
     "party": "Republican",
     "total_medicaid": 61000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-09",
@@ -637,7 +716,8 @@
     "party": "Democrat",
     "total_medicaid": 69000,
     "snap_households": 26000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-10",
@@ -645,7 +725,8 @@
     "party": "Democrat",
     "total_medicaid": 66000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-11",
@@ -653,7 +734,8 @@
     "party": "Republican",
     "total_medicaid": 60000,
     "snap_households": 14000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-13",
@@ -661,7 +743,8 @@
     "party": "Republican",
     "total_medicaid": 60000,
     "snap_households": 14000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "FL-14",
@@ -669,7 +752,8 @@
     "party": "Democrat",
     "total_medicaid": 65000,
     "snap_households": 23000,
-    "jobs_risk": 86
+    "jobs_risk": 86,
+    "is_target_district": false
   },
   {
     "district": "FL-15",
@@ -677,7 +761,8 @@
     "party": "Republican",
     "total_medicaid": 66000,
     "snap_households": 19000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-16",
@@ -685,7 +770,8 @@
     "party": "Republican",
     "total_medicaid": 62000,
     "snap_households": 15000,
-    "jobs_risk": 376
+    "jobs_risk": 376,
+    "is_target_district": false
   },
   {
     "district": "FL-17",
@@ -693,7 +779,8 @@
     "party": "Republican",
     "total_medicaid": 60000,
     "snap_households": 14000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-18",
@@ -701,7 +788,8 @@
     "party": "Republican",
     "total_medicaid": 71000,
     "snap_households": 25000,
-    "jobs_risk": 2251
+    "jobs_risk": 2251,
+    "is_target_district": false
   },
   {
     "district": "FL-19",
@@ -709,7 +797,8 @@
     "party": "Republican",
     "total_medicaid": 59000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-20",
@@ -717,7 +806,8 @@
     "party": "Democrat",
     "total_medicaid": 71000,
     "snap_households": 33000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-21",
@@ -725,7 +815,8 @@
     "party": "Republican",
     "total_medicaid": 61000,
     "snap_households": 15000,
-    "jobs_risk": 170
+    "jobs_risk": 170,
+    "is_target_district": false
   },
   {
     "district": "FL-22",
@@ -733,7 +824,8 @@
     "party": "Democrat",
     "total_medicaid": 62000,
     "snap_households": 17000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-23",
@@ -741,7 +833,8 @@
     "party": "Democrat",
     "total_medicaid": 58000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-25",
@@ -749,7 +842,8 @@
     "party": "Democrat",
     "total_medicaid": 61000,
     "snap_households": 17000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "FL-26",
@@ -757,7 +851,8 @@
     "party": "Republican",
     "total_medicaid": 70000,
     "snap_households": 37000,
-    "jobs_risk": 170
+    "jobs_risk": 170,
+    "is_target_district": false
   },
   {
     "district": "FL-27",
@@ -765,7 +860,8 @@
     "party": "Republican",
     "total_medicaid": 65000,
     "snap_households": 27000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "FL-28",
@@ -773,7 +869,8 @@
     "party": "Republican",
     "total_medicaid": 70000,
     "snap_households": 32000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-01",
@@ -781,7 +878,8 @@
     "party": "Republican",
     "total_medicaid": 44000,
     "snap_households": 31000,
-    "jobs_risk": 1561
+    "jobs_risk": 1561,
+    "is_target_district": false
   },
   {
     "district": "GA-03",
@@ -789,7 +887,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 31000,
-    "jobs_risk": 2951
+    "jobs_risk": 2951,
+    "is_target_district": false
   },
   {
     "district": "GA-04",
@@ -797,7 +896,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 39000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-05",
@@ -805,7 +905,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 37000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-06",
@@ -813,7 +914,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 33000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-07",
@@ -821,7 +923,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 11000,
-    "jobs_risk": 340
+    "jobs_risk": 340,
+    "is_target_district": false
   },
   {
     "district": "GA-08",
@@ -829,7 +932,8 @@
     "party": "Republican",
     "total_medicaid": 46000,
     "snap_households": 40000,
-    "jobs_risk": 543
+    "jobs_risk": 543,
+    "is_target_district": false
   },
   {
     "district": "GA-09",
@@ -837,7 +941,8 @@
     "party": "Republican",
     "total_medicaid": 42000,
     "snap_households": 24000,
-    "jobs_risk": 1562
+    "jobs_risk": 1562,
+    "is_target_district": false
   },
   {
     "district": "GA-10",
@@ -845,7 +950,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 27000,
-    "jobs_risk": 887
+    "jobs_risk": 887,
+    "is_target_district": false
   },
   {
     "district": "GA-11",
@@ -853,7 +959,8 @@
     "party": "Republican",
     "total_medicaid": 40000,
     "snap_households": 18000,
-    "jobs_risk": 5990
+    "jobs_risk": 5990,
+    "is_target_district": false
   },
   {
     "district": "GA-12",
@@ -861,7 +968,8 @@
     "party": "Republican",
     "total_medicaid": 46000,
     "snap_households": 36000,
-    "jobs_risk": 2159
+    "jobs_risk": 2159,
+    "is_target_district": false
   },
   {
     "district": "GA-13",
@@ -869,7 +977,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 33000,
-    "jobs_risk": 666
+    "jobs_risk": 666,
+    "is_target_district": false
   },
   {
     "district": "GA-14",
@@ -877,7 +986,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 31000,
-    "jobs_risk": 162
+    "jobs_risk": 162,
+    "is_target_district": false
   },
   {
     "district": "HI-01",
@@ -885,7 +995,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 12000,
-    "jobs_risk": 648
+    "jobs_risk": 648,
+    "is_target_district": false
   },
   {
     "district": "HI-02",
@@ -893,7 +1004,8 @@
     "party": "Democrat",
     "total_medicaid": 19000,
     "snap_households": 17000,
-    "jobs_risk": 321
+    "jobs_risk": 321,
+    "is_target_district": false
   },
   {
     "district": "GA-05",
@@ -901,7 +1013,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 37000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-06",
@@ -909,7 +1022,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 33000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "GA-07",
@@ -917,7 +1031,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 11000,
-    "jobs_risk": 340
+    "jobs_risk": 340,
+    "is_target_district": false
   },
   {
     "district": "GA-08",
@@ -925,7 +1040,8 @@
     "party": "Republican",
     "total_medicaid": 46000,
     "snap_households": 40000,
-    "jobs_risk": 543
+    "jobs_risk": 543,
+    "is_target_district": false
   },
   {
     "district": "GA-09",
@@ -933,7 +1049,8 @@
     "party": "Republican",
     "total_medicaid": 42000,
     "snap_households": 24000,
-    "jobs_risk": 1562
+    "jobs_risk": 1562,
+    "is_target_district": false
   },
   {
     "district": "GA-10",
@@ -941,7 +1058,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 27000,
-    "jobs_risk": 887
+    "jobs_risk": 887,
+    "is_target_district": false
   },
   {
     "district": "GA-11",
@@ -949,7 +1067,8 @@
     "party": "Republican",
     "total_medicaid": 40000,
     "snap_households": 18000,
-    "jobs_risk": 5990
+    "jobs_risk": 5990,
+    "is_target_district": false
   },
   {
     "district": "GA-12",
@@ -957,7 +1076,8 @@
     "party": "Republican",
     "total_medicaid": 46000,
     "snap_households": 36000,
-    "jobs_risk": 2159
+    "jobs_risk": 2159,
+    "is_target_district": false
   },
   {
     "district": "GA-13",
@@ -965,7 +1085,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 33000,
-    "jobs_risk": 666
+    "jobs_risk": 666,
+    "is_target_district": false
   },
   {
     "district": "GA-14",
@@ -973,7 +1094,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 31000,
-    "jobs_risk": 162
+    "jobs_risk": 162,
+    "is_target_district": false
   },
   {
     "district": "HI-01",
@@ -981,7 +1103,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 12000,
-    "jobs_risk": 648
+    "jobs_risk": 648,
+    "is_target_district": false
   },
   {
     "district": "HI-02",
@@ -989,7 +1112,8 @@
     "party": "Democrat",
     "total_medicaid": 19000,
     "snap_households": 17000,
-    "jobs_risk": 321
+    "jobs_risk": 321,
+    "is_target_district": false
   },
   {
     "district": "ID-01",
@@ -997,7 +1121,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 11000,
-    "jobs_risk": 483
+    "jobs_risk": 483,
+    "is_target_district": false
   },
   {
     "district": "IL-01",
@@ -1005,7 +1130,8 @@
     "party": "Democrat",
     "total_medicaid": 37000,
     "snap_households": 42000,
-    "jobs_risk": 4040
+    "jobs_risk": 4040,
+    "is_target_district": false
   },
   {
     "district": "IL-02",
@@ -1013,7 +1139,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 48000,
-    "jobs_risk": 11
+    "jobs_risk": 11,
+    "is_target_district": false
   },
   {
     "district": "IL-03",
@@ -1021,7 +1148,8 @@
     "party": "Democrat",
     "total_medicaid": 29000,
     "snap_households": 31000,
-    "jobs_risk": 208
+    "jobs_risk": 208,
+    "is_target_district": false
   },
   {
     "district": "IL-04",
@@ -1029,7 +1157,8 @@
     "party": "Democrat",
     "total_medicaid": 38000,
     "snap_households": 41000,
-    "jobs_risk": 31
+    "jobs_risk": 31,
+    "is_target_district": false
   },
   {
     "district": "IL-06",
@@ -1037,7 +1166,8 @@
     "party": "Democrat",
     "total_medicaid": 20000,
     "snap_households": 20000,
-    "jobs_risk": 10
+    "jobs_risk": 10,
+    "is_target_district": false
   },
   {
     "district": "IL-08",
@@ -1045,7 +1175,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 21000,
-    "jobs_risk": 11
+    "jobs_risk": 11,
+    "is_target_district": false
   },
   {
     "district": "IL-09",
@@ -1053,7 +1184,8 @@
     "party": "Democrat",
     "total_medicaid": 21000,
     "snap_households": 20000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "IL-10",
@@ -1061,7 +1193,8 @@
     "party": "Democrat",
     "total_medicaid": 21000,
     "snap_households": 19000,
-    "jobs_risk": 18
+    "jobs_risk": 18,
+    "is_target_district": false
   },
   {
     "district": "IL-12",
@@ -1069,7 +1202,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 26000,
-    "jobs_risk": 1019
+    "jobs_risk": 1019,
+    "is_target_district": false
   },
   {
     "district": "IL-13",
@@ -1077,7 +1211,8 @@
     "party": "Democrat",
     "total_medicaid": 34000,
     "snap_households": 29000,
-    "jobs_risk": 3318
+    "jobs_risk": 3318,
+    "is_target_district": false
   },
   {
     "district": "IL-14",
@@ -1085,7 +1220,8 @@
     "party": "Democrat",
     "total_medicaid": 25000,
     "snap_households": 29000,
-    "jobs_risk": 373
+    "jobs_risk": 373,
+    "is_target_district": false
   },
   {
     "district": "IL-15",
@@ -1093,7 +1229,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 23000,
-    "jobs_risk": 1620
+    "jobs_risk": 1620,
+    "is_target_district": false
   },
   {
     "district": "IL-16",
@@ -1101,7 +1238,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 17000,
-    "jobs_risk": 6937
+    "jobs_risk": 6937,
+    "is_target_district": false
   },
   {
     "district": "IL-17",
@@ -1109,7 +1247,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 33000,
-    "jobs_risk": 1923
+    "jobs_risk": 1923,
+    "is_target_district": false
   },
   {
     "district": "IN-01",
@@ -1117,7 +1256,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 26000,
-    "jobs_risk": 482
+    "jobs_risk": 482,
+    "is_target_district": false
   },
   {
     "district": "IN-02",
@@ -1125,7 +1265,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 16000,
-    "jobs_risk": 5840
+    "jobs_risk": 5840,
+    "is_target_district": false
   },
   {
     "district": "IN-04",
@@ -1133,7 +1274,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 11000,
-    "jobs_risk": 535
+    "jobs_risk": 535,
+    "is_target_district": false
   },
   {
     "district": "IN-05",
@@ -1141,7 +1283,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 15000,
-    "jobs_risk": 5352
+    "jobs_risk": 5352,
+    "is_target_district": false
   },
   {
     "district": "IN-06",
@@ -1149,7 +1292,8 @@
     "party": "Republican",
     "total_medicaid": 26000,
     "snap_households": 15000,
-    "jobs_risk": 368
+    "jobs_risk": 368,
+    "is_target_district": false
   },
   {
     "district": "IN-08",
@@ -1157,7 +1301,8 @@
     "party": "Republican",
     "total_medicaid": 26000,
     "snap_households": 16000,
-    "jobs_risk": 7088
+    "jobs_risk": 7088,
+    "is_target_district": false
   },
   {
     "district": "IN-09",
@@ -1165,7 +1310,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 12000,
-    "jobs_risk": 2806
+    "jobs_risk": 2806,
+    "is_target_district": false
   },
   {
     "district": "KS-01",
@@ -1173,7 +1319,8 @@
     "party": "Republican",
     "total_medicaid": 15000,
     "snap_households": 10000,
-    "jobs_risk": 970
+    "jobs_risk": 970,
+    "is_target_district": false
   },
   {
     "district": "KS-02",
@@ -1181,7 +1328,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 13000,
-    "jobs_risk": 1926
+    "jobs_risk": 1926,
+    "is_target_district": false
   },
   {
     "district": "KS-04",
@@ -1189,7 +1337,8 @@
     "party": "Republican",
     "total_medicaid": 16000,
     "snap_households": 15000,
-    "jobs_risk": 582
+    "jobs_risk": 582,
+    "is_target_district": false
   },
   {
     "district": "KY-02",
@@ -1197,7 +1346,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 21000,
-    "jobs_risk": 13104
+    "jobs_risk": 13104,
+    "is_target_district": false
   },
   {
     "district": "KY-03",
@@ -1205,7 +1355,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 19000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "KY-04",
@@ -1213,7 +1364,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 16000,
-    "jobs_risk": 2710
+    "jobs_risk": 2710,
+    "is_target_district": false
   },
   {
     "district": "KY-05",
@@ -1221,7 +1373,8 @@
     "party": "Republican",
     "total_medicaid": 56000,
     "snap_households": 38000,
-    "jobs_risk": 1020
+    "jobs_risk": 1020,
+    "is_target_district": false
   },
   {
     "district": "KY-06",
@@ -1229,7 +1382,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 18000,
-    "jobs_risk": 4639
+    "jobs_risk": 4639,
+    "is_target_district": true
   },
   {
     "district": "LA-01",
@@ -1237,7 +1391,8 @@
     "party": "Republican",
     "total_medicaid": 33000,
     "snap_households": 23000,
-    "jobs_risk": 1785
+    "jobs_risk": 1785,
+    "is_target_district": false
   },
   {
     "district": "LA-02",
@@ -1245,7 +1400,8 @@
     "party": "Democrat",
     "total_medicaid": 48000,
     "snap_households": 36000,
-    "jobs_risk": 10475
+    "jobs_risk": 10475,
+    "is_target_district": false
   },
   {
     "district": "LA-03",
@@ -1253,7 +1409,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 31000,
-    "jobs_risk": 5831
+    "jobs_risk": 5831,
+    "is_target_district": false
   },
   {
     "district": "LA-04",
@@ -1261,7 +1418,8 @@
     "party": "Republican",
     "total_medicaid": 41000,
     "snap_households": 33000,
-    "jobs_risk": 2467
+    "jobs_risk": 2467,
+    "is_target_district": false
   },
   {
     "district": "LA-06",
@@ -1269,7 +1427,8 @@
     "party": "Democrat",
     "total_medicaid": 51000,
     "snap_households": 43000,
-    "jobs_risk": 5106
+    "jobs_risk": 5106,
+    "is_target_district": false
   },
   {
     "district": "MA-01",
@@ -1277,7 +1436,8 @@
     "party": "Democrat",
     "total_medicaid": 29000,
     "snap_households": 39000,
-    "jobs_risk": 146
+    "jobs_risk": 146,
+    "is_target_district": false
   },
   {
     "district": "MA-02",
@@ -1285,7 +1445,8 @@
     "party": "Democrat",
     "total_medicaid": 20000,
     "snap_households": 26000,
-    "jobs_risk": 15
+    "jobs_risk": 15,
+    "is_target_district": false
   },
   {
     "district": "MA-03",
@@ -1293,7 +1454,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 33000,
-    "jobs_risk": 897
+    "jobs_risk": 897,
+    "is_target_district": false
   },
   {
     "district": "MA-04",
@@ -1301,7 +1463,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 20000,
-    "jobs_risk": 19
+    "jobs_risk": 19,
+    "is_target_district": false
   },
   {
     "district": "MA-05",
@@ -1309,7 +1472,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 17000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MA-06",
@@ -1317,7 +1481,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 19000,
-    "jobs_risk": 10
+    "jobs_risk": 10,
+    "is_target_district": false
   },
   {
     "district": "MA-07",
@@ -1325,7 +1490,8 @@
     "party": "Democrat",
     "total_medicaid": 29000,
     "snap_households": 36000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MA-08",
@@ -1333,7 +1499,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MA-09",
@@ -1341,7 +1508,8 @@
     "party": "Democrat",
     "total_medicaid": 20000,
     "snap_households": 22000,
-    "jobs_risk": 684
+    "jobs_risk": 684,
+    "is_target_district": false
   },
   {
     "district": "MD-01",
@@ -1349,7 +1517,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 15000,
-    "jobs_risk": 811
+    "jobs_risk": 811,
+    "is_target_district": false
   },
   {
     "district": "MD-03",
@@ -1357,7 +1526,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MD-04",
@@ -1365,7 +1535,8 @@
     "party": "Democrat",
     "total_medicaid": 24000,
     "snap_households": 20000,
-    "jobs_risk": 367
+    "jobs_risk": 367,
+    "is_target_district": false
   },
   {
     "district": "MD-05",
@@ -1373,7 +1544,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 12000,
-    "jobs_risk": 7
+    "jobs_risk": 7,
+    "is_target_district": false
   },
   {
     "district": "MD-06",
@@ -1381,7 +1553,8 @@
     "party": "Democrat",
     "total_medicaid": 19000,
     "snap_households": 17000,
-    "jobs_risk": 477
+    "jobs_risk": 477,
+    "is_target_district": false
   },
   {
     "district": "MD-07",
@@ -1389,7 +1562,8 @@
     "party": "Democrat",
     "total_medicaid": 35000,
     "snap_households": 33000,
-    "jobs_risk": 889
+    "jobs_risk": 889,
+    "is_target_district": false
   },
   {
     "district": "MD-08",
@@ -1397,7 +1571,8 @@
     "party": "Democrat",
     "total_medicaid": 14000,
     "snap_households": 9000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "ME-01",
@@ -1405,7 +1580,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 12000,
-    "jobs_risk": 885
+    "jobs_risk": 885,
+    "is_target_district": false
   },
   {
     "district": "ME-02",
@@ -1413,7 +1589,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 20000,
-    "jobs_risk": 3608
+    "jobs_risk": 3608,
+    "is_target_district": false
   },
   {
     "district": "MI-01",
@@ -1421,7 +1598,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 21000,
-    "jobs_risk": 298
+    "jobs_risk": 298,
+    "is_target_district": false
   },
   {
     "district": "MI-02",
@@ -1429,7 +1607,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 23000,
-    "jobs_risk": 5653
+    "jobs_risk": 5653,
+    "is_target_district": false
   },
   {
     "district": "MI-03",
@@ -1437,7 +1616,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 20000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MI-04",
@@ -1445,7 +1625,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 17000,
-    "jobs_risk": 7909
+    "jobs_risk": 7909,
+    "is_target_district": true
   },
   {
     "district": "MI-05",
@@ -1453,7 +1634,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 19000,
-    "jobs_risk": 5589
+    "jobs_risk": 5589,
+    "is_target_district": false
   },
   {
     "district": "MI-06",
@@ -1461,7 +1643,8 @@
     "party": "Democrat",
     "total_medicaid": 13000,
     "snap_households": 12000,
-    "jobs_risk": 548
+    "jobs_risk": 548,
+    "is_target_district": false
   },
   {
     "district": "MI-07",
@@ -1469,7 +1652,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 15000,
-    "jobs_risk": 4352
+    "jobs_risk": 4352,
+    "is_target_district": true
   },
   {
     "district": "MI-08",
@@ -1477,7 +1661,8 @@
     "party": "Democrat",
     "total_medicaid": 28000,
     "snap_households": 31000,
-    "jobs_risk": 4032
+    "jobs_risk": 4032,
+    "is_target_district": false
   },
   {
     "district": "MI-09",
@@ -1485,7 +1670,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 18000,
-    "jobs_risk": 4475
+    "jobs_risk": 4475,
+    "is_target_district": false
   },
   {
     "district": "MI-10",
@@ -1493,7 +1679,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 24000,
-    "jobs_risk": 1536
+    "jobs_risk": 1536,
+    "is_target_district": true
   },
   {
     "district": "MI-11",
@@ -1501,7 +1688,8 @@
     "party": "Democrat",
     "total_medicaid": 16000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MI-12",
@@ -1509,7 +1697,8 @@
     "party": "Democrat",
     "total_medicaid": 35000,
     "snap_households": 42000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MI-13",
@@ -1517,7 +1706,8 @@
     "party": "Democrat",
     "total_medicaid": 41000,
     "snap_households": 46000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MN-01",
@@ -1525,7 +1715,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 13000,
-    "jobs_risk": 261
+    "jobs_risk": 261,
+    "is_target_district": false
   },
   {
     "district": "MN-02",
@@ -1533,7 +1724,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 9000,
-    "jobs_risk": 22
+    "jobs_risk": 22,
+    "is_target_district": false
   },
   {
     "district": "MN-03",
@@ -1541,7 +1733,8 @@
     "party": "Democrat",
     "total_medicaid": 17000,
     "snap_households": 9000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MN-04",
@@ -1549,7 +1742,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 19000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MN-05",
@@ -1557,7 +1751,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 19000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MN-06",
@@ -1565,7 +1760,8 @@
     "party": "Republican",
     "total_medicaid": 19000,
     "snap_households": 12000,
-    "jobs_risk": 860
+    "jobs_risk": 860,
+    "is_target_district": false
   },
   {
     "district": "MN-07",
@@ -1573,7 +1769,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 12000,
-    "jobs_risk": 2420
+    "jobs_risk": 2420,
+    "is_target_district": false
   },
   {
     "district": "MN-08",
@@ -1581,7 +1778,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 14000,
-    "jobs_risk": 1520
+    "jobs_risk": 1520,
+    "is_target_district": false
   },
   {
     "district": "MO-01",
@@ -1589,7 +1787,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 30000,
-    "jobs_risk": 550
+    "jobs_risk": 550,
+    "is_target_district": false
   },
   {
     "district": "MO-02",
@@ -1597,7 +1796,8 @@
     "party": "Republican",
     "total_medicaid": 11000,
     "snap_households": 9000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "MO-03",
@@ -1605,7 +1805,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 13000,
-    "jobs_risk": 941
+    "jobs_risk": 941,
+    "is_target_district": false
   },
   {
     "district": "MO-04",
@@ -1613,7 +1814,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 19000,
-    "jobs_risk": 170
+    "jobs_risk": 170,
+    "is_target_district": false
   },
   {
     "district": "MO-05",
@@ -1621,7 +1823,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 18000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MO-06",
@@ -1629,7 +1832,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 16000,
-    "jobs_risk": 876
+    "jobs_risk": 876,
+    "is_target_district": false
   },
   {
     "district": "MO-07",
@@ -1637,7 +1841,8 @@
     "party": "Republican",
     "total_medicaid": 26000,
     "snap_households": 20000,
-    "jobs_risk": 29
+    "jobs_risk": 29,
+    "is_target_district": false
   },
   {
     "district": "MO-08",
@@ -1645,7 +1850,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 25000,
-    "jobs_risk": 2077
+    "jobs_risk": 2077,
+    "is_target_district": false
   },
   {
     "district": "MS-01",
@@ -1653,7 +1859,8 @@
     "party": "Republican",
     "total_medicaid": 36000,
     "snap_households": 18000,
-    "jobs_risk": 4716
+    "jobs_risk": 4716,
+    "is_target_district": false
   },
   {
     "district": "MS-02",
@@ -1661,7 +1868,8 @@
     "party": "Democrat",
     "total_medicaid": 41000,
     "snap_households": 36000,
-    "jobs_risk": 5043
+    "jobs_risk": 5043,
+    "is_target_district": false
   },
   {
     "district": "MS-03",
@@ -1669,7 +1877,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 21000,
-    "jobs_risk": 508
+    "jobs_risk": 508,
+    "is_target_district": false
   },
   {
     "district": "MS-04",
@@ -1677,7 +1886,8 @@
     "party": "Republican",
     "total_medicaid": 36000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "MT-02",
@@ -1685,7 +1895,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 12000,
-    "jobs_risk": 1553
+    "jobs_risk": 1553,
+    "is_target_district": false
   },
   {
     "district": "NC-01",
@@ -1693,7 +1904,8 @@
     "party": "Democrat",
     "total_medicaid": 44000,
     "snap_households": 45000,
-    "jobs_risk": 2837
+    "jobs_risk": 2837,
+    "is_target_district": false
   },
   {
     "district": "NC-02",
@@ -1701,7 +1913,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 15000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NC-03",
@@ -1709,7 +1922,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 26000,
-    "jobs_risk": 2450
+    "jobs_risk": 2450,
+    "is_target_district": false
   },
   {
     "district": "NC-04",
@@ -1717,7 +1931,8 @@
     "party": "Democrat",
     "total_medicaid": 24000,
     "snap_households": 16000,
-    "jobs_risk": 1358
+    "jobs_risk": 1358,
+    "is_target_district": false
   },
   {
     "district": "NC-05",
@@ -1725,7 +1940,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 33000,
-    "jobs_risk": 85
+    "jobs_risk": 85,
+    "is_target_district": false
   },
   {
     "district": "NC-06",
@@ -1733,7 +1949,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 29000,
-    "jobs_risk": 1374
+    "jobs_risk": 1374,
+    "is_target_district": false
   },
   {
     "district": "NC-07",
@@ -1741,7 +1958,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 33000,
-    "jobs_risk": 1420
+    "jobs_risk": 1420,
+    "is_target_district": false
   },
   {
     "district": "NC-08",
@@ -1749,7 +1967,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 29000,
-    "jobs_risk": 351
+    "jobs_risk": 351,
+    "is_target_district": false
   },
   {
     "district": "NC-09",
@@ -1757,7 +1976,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 29000,
-    "jobs_risk": 6123
+    "jobs_risk": 6123,
+    "is_target_district": false
   },
   {
     "district": "NC-10",
@@ -1765,7 +1985,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 27000,
-    "jobs_risk": 923
+    "jobs_risk": 923,
+    "is_target_district": false
   },
   {
     "district": "NC-11",
@@ -1773,7 +1994,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 18000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NC-12",
@@ -1781,7 +2003,8 @@
     "party": "Democrat",
     "total_medicaid": 31000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NC-13",
@@ -1789,7 +2012,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 24000,
-    "jobs_risk": 360
+    "jobs_risk": 360,
+    "is_target_district": false
   },
   {
     "district": "ND-AL",
@@ -1797,7 +2021,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 12000,
-    "jobs_risk": 4297
+    "jobs_risk": 4297,
+    "is_target_district": false
   },
   {
     "district": "NE-02",
@@ -1805,7 +2030,8 @@
     "party": "Republican",
     "total_medicaid": 16000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "NE-03",
@@ -1813,7 +2039,8 @@
     "party": "Republican",
     "total_medicaid": 16000,
     "snap_households": 9000,
-    "jobs_risk": 3098
+    "jobs_risk": 3098,
+    "is_target_district": false
   },
   {
     "district": "NJ-01",
@@ -1821,7 +2048,8 @@
     "party": "Democrat",
     "total_medicaid": 37000,
     "snap_households": 19000,
-    "jobs_risk": 6
+    "jobs_risk": 6,
+    "is_target_district": false
   },
   {
     "district": "NJ-02",
@@ -1829,7 +2057,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 22000,
-    "jobs_risk": 89
+    "jobs_risk": 89,
+    "is_target_district": false
   },
   {
     "district": "NJ-04",
@@ -1837,7 +2066,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 11000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NJ-05",
@@ -1845,7 +2075,8 @@
     "party": "Democrat",
     "total_medicaid": 16000,
     "snap_households": 9000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NJ-09",
@@ -1853,7 +2084,8 @@
     "party": "Democrat",
     "total_medicaid": 40000,
     "snap_households": 35000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NJ-10",
@@ -1861,7 +2093,8 @@
     "party": "Democrat",
     "total_medicaid": 46000,
     "snap_households": 32000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NJ-11",
@@ -1869,7 +2102,8 @@
     "party": "Democrat",
     "total_medicaid": 16000,
     "snap_households": 9000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NJ-12",
@@ -1877,7 +2111,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NM-01",
@@ -1885,7 +2120,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 39000,
-    "jobs_risk": 7137
+    "jobs_risk": 7137,
+    "is_target_district": false
   },
   {
     "district": "NM-02",
@@ -1893,7 +2129,8 @@
     "party": "Democrat",
     "total_medicaid": 32000,
     "snap_households": 59000,
-    "jobs_risk": 3018
+    "jobs_risk": 3018,
+    "is_target_district": false
   },
   {
     "district": "NM-03",
@@ -1901,7 +2138,8 @@
     "party": "Democrat",
     "total_medicaid": 32000,
     "snap_households": 50000,
-    "jobs_risk": 1665
+    "jobs_risk": 1665,
+    "is_target_district": false
   },
   {
     "district": "NV-01",
@@ -1909,7 +2147,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 33000,
-    "jobs_risk": 784
+    "jobs_risk": 784,
+    "is_target_district": false
   },
   {
     "district": "NV-02",
@@ -1917,7 +2156,8 @@
     "party": "Republican",
     "total_medicaid": 14000,
     "snap_households": 21000,
-    "jobs_risk": 18316
+    "jobs_risk": 18316,
+    "is_target_district": false
   },
   {
     "district": "NV-03",
@@ -1925,7 +2165,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 22000,
-    "jobs_risk": 2591
+    "jobs_risk": 2591,
+    "is_target_district": false
   },
   {
     "district": "NV-04",
@@ -1933,7 +2174,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 33000,
-    "jobs_risk": 5621
+    "jobs_risk": 5621,
+    "is_target_district": false
   },
   {
     "district": "NY-02",
@@ -1941,7 +2183,8 @@
     "party": "Republican",
     "total_medicaid": 27000,
     "snap_households": 17000,
-    "jobs_risk": 569
+    "jobs_risk": 569,
+    "is_target_district": false
   },
   {
     "district": "NY-03",
@@ -1949,7 +2192,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 11000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-04",
@@ -1957,7 +2201,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 11000,
-    "jobs_risk": 8
+    "jobs_risk": 8,
+    "is_target_district": false
   },
   {
     "district": "NY-06",
@@ -1965,7 +2210,8 @@
     "party": "Democrat",
     "total_medicaid": 40000,
     "snap_households": 28000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-07",
@@ -1973,7 +2219,8 @@
     "party": "Democrat",
     "total_medicaid": 39000,
     "snap_households": 36000,
-    "jobs_risk": 221
+    "jobs_risk": 221,
+    "is_target_district": false
   },
   {
     "district": "NY-08",
@@ -1981,7 +2228,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 42000,
-    "jobs_risk": 6
+    "jobs_risk": 6,
+    "is_target_district": false
   },
   {
     "district": "NY-10",
@@ -1989,7 +2237,8 @@
     "party": "Democrat",
     "total_medicaid": 31000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-11",
@@ -1997,7 +2246,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 30000,
-    "jobs_risk": 123
+    "jobs_risk": 123,
+    "is_target_district": false
   },
   {
     "district": "NY-12",
@@ -2005,7 +2255,8 @@
     "party": "Democrat",
     "total_medicaid": 11000,
     "snap_households": 7000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-13",
@@ -2013,7 +2264,8 @@
     "party": "Democrat",
     "total_medicaid": 48000,
     "snap_households": 57000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-14",
@@ -2021,7 +2273,8 @@
     "party": "Democrat",
     "total_medicaid": 50000,
     "snap_households": 40000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-15",
@@ -2029,7 +2282,8 @@
     "party": "Democrat",
     "total_medicaid": 60000,
     "snap_households": 61000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-16",
@@ -2037,7 +2291,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 26000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "NY-17",
@@ -2045,7 +2300,8 @@
     "party": "Republican",
     "total_medicaid": 27000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "NY-18",
@@ -2053,7 +2309,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 16000,
-    "jobs_risk": 182
+    "jobs_risk": 182,
+    "is_target_district": false
   },
   {
     "district": "NY-19",
@@ -2061,7 +2318,8 @@
     "party": "Democrat",
     "total_medicaid": 25000,
     "snap_households": 19000,
-    "jobs_risk": 1371
+    "jobs_risk": 1371,
+    "is_target_district": false
   },
   {
     "district": "NY-20",
@@ -2069,7 +2327,8 @@
     "party": "Democrat",
     "total_medicaid": 23000,
     "snap_households": 17000,
-    "jobs_risk": 405
+    "jobs_risk": 405,
+    "is_target_district": false
   },
   {
     "district": "NY-21",
@@ -2077,7 +2336,8 @@
     "party": "Republican",
     "total_medicaid": 26000,
     "snap_households": 19000,
-    "jobs_risk": 2654
+    "jobs_risk": 2654,
+    "is_target_district": false
   },
   {
     "district": "NY-22",
@@ -2085,7 +2345,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 26000,
-    "jobs_risk": 889
+    "jobs_risk": 889,
+    "is_target_district": false
   },
   {
     "district": "NY-23",
@@ -2093,7 +2354,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 19000,
-    "jobs_risk": 2246
+    "jobs_risk": 2246,
+    "is_target_district": false
   },
   {
     "district": "NY-24",
@@ -2101,7 +2363,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 19000,
-    "jobs_risk": 4263
+    "jobs_risk": 4263,
+    "is_target_district": false
   },
   {
     "district": "NY-25",
@@ -2109,7 +2372,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 25000,
-    "jobs_risk": 776
+    "jobs_risk": 776,
+    "is_target_district": false
   },
   {
     "district": "OH-01",
@@ -2117,7 +2381,8 @@
     "party": "Democrat",
     "total_medicaid": 24000,
     "snap_households": 17000,
-    "jobs_risk": 415
+    "jobs_risk": 415,
+    "is_target_district": false
   },
   {
     "district": "OH-02",
@@ -2125,7 +2390,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 27000,
-    "jobs_risk": 889
+    "jobs_risk": 889,
+    "is_target_district": false
   },
   {
     "district": "OH-03",
@@ -2133,7 +2399,8 @@
     "party": "Democrat",
     "total_medicaid": 28000,
     "snap_households": 19000,
-    "jobs_risk": 4246
+    "jobs_risk": 4246,
+    "is_target_district": false
   },
   {
     "district": "OH-04",
@@ -2141,7 +2408,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 18000,
-    "jobs_risk": 5702
+    "jobs_risk": 5702,
+    "is_target_district": false
   },
   {
     "district": "OH-05",
@@ -2149,7 +2417,8 @@
     "party": "Republican",
     "total_medicaid": 22000,
     "snap_households": 18000,
-    "jobs_risk": 4448
+    "jobs_risk": 4448,
+    "is_target_district": false
   },
   {
     "district": "OH-06",
@@ -2157,7 +2426,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 28000,
-    "jobs_risk": 868
+    "jobs_risk": 868,
+    "is_target_district": false
   },
   {
     "district": "OH-07",
@@ -2165,7 +2435,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "OH-08",
@@ -2173,7 +2444,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 17000,
-    "jobs_risk": 1370
+    "jobs_risk": 1370,
+    "is_target_district": false
   },
   {
     "district": "OH-09",
@@ -2181,7 +2453,8 @@
     "party": "Democrat",
     "total_medicaid": 28000,
     "snap_households": 22000,
-    "jobs_risk": 1654
+    "jobs_risk": 1654,
+    "is_target_district": false
   },
   {
     "district": "OH-10",
@@ -2189,7 +2462,8 @@
     "party": "Republican",
     "total_medicaid": 29000,
     "snap_households": 22000,
-    "jobs_risk": 2635
+    "jobs_risk": 2635,
+    "is_target_district": true
   },
   {
     "district": "OH-11",
@@ -2197,7 +2471,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 37000,
-    "jobs_risk": 18
+    "jobs_risk": 18,
+    "is_target_district": false
   },
   {
     "district": "OH-12",
@@ -2205,7 +2480,8 @@
     "party": "Republican",
     "total_medicaid": 24000,
     "snap_households": 18000,
-    "jobs_risk": 448
+    "jobs_risk": 448,
+    "is_target_district": false
   },
   {
     "district": "OH-13",
@@ -2213,7 +2489,8 @@
     "party": "Democrat",
     "total_medicaid": 27000,
     "snap_households": 23000,
-    "jobs_risk": 136
+    "jobs_risk": 136,
+    "is_target_district": false
   },
   {
     "district": "OH-14",
@@ -2221,7 +2498,8 @@
     "party": "Republican",
     "total_medicaid": 23000,
     "snap_households": 18000,
-    "jobs_risk": 1726
+    "jobs_risk": 1726,
+    "is_target_district": false
   },
   {
     "district": "OH-15",
@@ -2229,7 +2507,8 @@
     "party": "Republican",
     "total_medicaid": 29000,
     "snap_households": 20000,
-    "jobs_risk": 378
+    "jobs_risk": 378,
+    "is_target_district": true
   },
   {
     "district": "OK-01",
@@ -2237,7 +2516,8 @@
     "party": "Republican",
     "total_medicaid": 27000,
     "snap_households": 27000,
-    "jobs_risk": 929
+    "jobs_risk": 929,
+    "is_target_district": false
   },
   {
     "district": "OK-02",
@@ -2245,7 +2525,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 40000,
-    "jobs_risk": 5573
+    "jobs_risk": 5573,
+    "is_target_district": false
   },
   {
     "district": "OK-03",
@@ -2253,7 +2534,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 33000,
-    "jobs_risk": 1155
+    "jobs_risk": 1155,
+    "is_target_district": false
   },
   {
     "district": "OK-04",
@@ -2261,7 +2543,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 30000,
-    "jobs_risk": 1318
+    "jobs_risk": 1318,
+    "is_target_district": false
   },
   {
     "district": "OK-05",
@@ -2269,7 +2552,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 27000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "OR-01",
@@ -2277,7 +2561,8 @@
     "party": "Democrat",
     "total_medicaid": 26000,
     "snap_households": 17000,
-    "jobs_risk": 3740
+    "jobs_risk": 3740,
+    "is_target_district": false
   },
   {
     "district": "OR-02",
@@ -2285,7 +2570,8 @@
     "party": "Republican",
     "total_medicaid": 47000,
     "snap_households": 33000,
-    "jobs_risk": 8244
+    "jobs_risk": 8244,
+    "is_target_district": false
   },
   {
     "district": "OR-03",
@@ -2293,7 +2579,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 20000,
-    "jobs_risk": 138
+    "jobs_risk": 138,
+    "is_target_district": false
   },
   {
     "district": "OR-04",
@@ -2301,7 +2588,8 @@
     "party": "Democrat",
     "total_medicaid": 38000,
     "snap_households": 27000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "OR-06",
@@ -2309,7 +2597,8 @@
     "party": "Democrat",
     "total_medicaid": 34000,
     "snap_households": 28000,
-    "jobs_risk": 261
+    "jobs_risk": 261,
+    "is_target_district": false
   },
   {
     "district": "PA-01",
@@ -2317,7 +2606,8 @@
     "party": "Republican",
     "total_medicaid": 12000,
     "snap_households": 15000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": true
   },
   {
     "district": "PA-02",
@@ -2325,7 +2615,8 @@
     "party": "Democrat",
     "total_medicaid": 38000,
     "snap_households": 50000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "PA-03",
@@ -2333,7 +2624,8 @@
     "party": "Democrat",
     "total_medicaid": 32000,
     "snap_households": 33000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "PA-04",
@@ -2341,7 +2633,8 @@
     "party": "Democrat",
     "total_medicaid": 12000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "PA-05",
@@ -2349,7 +2642,8 @@
     "party": "Democrat",
     "total_medicaid": 21000,
     "snap_households": 25000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "PA-06",
@@ -2357,7 +2651,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 19000,
-    "jobs_risk": 4
+    "jobs_risk": 4,
+    "is_target_district": false
   },
   {
     "district": "PA-07",
@@ -2365,7 +2660,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 25000,
-    "jobs_risk": 573
+    "jobs_risk": 573,
+    "is_target_district": true
   },
   {
     "district": "PA-09",
@@ -2373,7 +2669,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 23000,
-    "jobs_risk": 451
+    "jobs_risk": 451,
+    "is_target_district": false
   },
   {
     "district": "PA-10",
@@ -2381,7 +2678,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 20000,
-    "jobs_risk": 395
+    "jobs_risk": 395,
+    "is_target_district": true
   },
   {
     "district": "PA-11",
@@ -2389,7 +2687,8 @@
     "party": "Republican",
     "total_medicaid": 15000,
     "snap_households": 15000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "PA-12",
@@ -2397,7 +2696,8 @@
     "party": "Democrat",
     "total_medicaid": 20000,
     "snap_households": 26000,
-    "jobs_risk": 190
+    "jobs_risk": 190,
+    "is_target_district": false
   },
   {
     "district": "PA-13",
@@ -2405,7 +2705,8 @@
     "party": "Republican",
     "total_medicaid": 19000,
     "snap_households": 20000,
-    "jobs_risk": 180
+    "jobs_risk": 180,
+    "is_target_district": false
   },
   {
     "district": "PA-14",
@@ -2413,7 +2714,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 24000,
-    "jobs_risk": 1062
+    "jobs_risk": 1062,
+    "is_target_district": false
   },
   {
     "district": "PA-15",
@@ -2421,7 +2723,8 @@
     "party": "Republican",
     "total_medicaid": 18000,
     "snap_households": 21000,
-    "jobs_risk": 2137
+    "jobs_risk": 2137,
+    "is_target_district": false
   },
   {
     "district": "PA-16",
@@ -2429,7 +2732,8 @@
     "party": "Republican",
     "total_medicaid": 21000,
     "snap_households": 27000,
-    "jobs_risk": 795
+    "jobs_risk": 795,
+    "is_target_district": false
   },
   {
     "district": "PA-17",
@@ -2437,7 +2741,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 16000,
-    "jobs_risk": 1058
+    "jobs_risk": 1058,
+    "is_target_district": false
   },
   {
     "district": "RI-01",
@@ -2445,7 +2750,8 @@
     "party": "Democrat",
     "total_medicaid": 10000,
     "snap_households": 12000,
-    "jobs_risk": 400
+    "jobs_risk": 400,
+    "is_target_district": false
   },
   {
     "district": "RI-02",
@@ -2453,7 +2759,8 @@
     "party": "Democrat",
     "total_medicaid": 30000,
     "snap_households": 10000,
-    "jobs_risk": 10
+    "jobs_risk": 10,
+    "is_target_district": false
   },
   {
     "district": "SC-01",
@@ -2461,7 +2768,8 @@
     "party": "Republican",
     "total_medicaid": 30000,
     "snap_households": 11000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "SC-02",
@@ -2469,7 +2777,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 20000,
-    "jobs_risk": 6133
+    "jobs_risk": 6133,
+    "is_target_district": false
   },
   {
     "district": "SC-03",
@@ -2477,7 +2786,8 @@
     "party": "Republican",
     "total_medicaid": 33000,
     "snap_households": 21000,
-    "jobs_risk": 271
+    "jobs_risk": 271,
+    "is_target_district": false
   },
   {
     "district": "SC-04",
@@ -2485,7 +2795,8 @@
     "party": "Republican",
     "total_medicaid": 32000,
     "snap_households": 17000,
-    "jobs_risk": 4812
+    "jobs_risk": 4812,
+    "is_target_district": false
   },
   {
     "district": "SC-05",
@@ -2493,7 +2804,8 @@
     "party": "Republican",
     "total_medicaid": 33000,
     "snap_households": 22000,
-    "jobs_risk": 3534
+    "jobs_risk": 3534,
+    "is_target_district": false
   },
   {
     "district": "SC-06",
@@ -2501,7 +2813,8 @@
     "party": "Democrat",
     "total_medicaid": 35000,
     "snap_households": 28000,
-    "jobs_risk": 8246
+    "jobs_risk": 8246,
+    "is_target_district": false
   },
   {
     "district": "SC-07",
@@ -2509,7 +2822,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 24000,
-    "jobs_risk": 7259
+    "jobs_risk": 7259,
+    "is_target_district": false
   },
   {
     "district": "SD-AL",
@@ -2517,7 +2831,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 14000,
-    "jobs_risk": 1320
+    "jobs_risk": 1320,
+    "is_target_district": false
   },
   {
     "district": "TN-01",
@@ -2525,7 +2840,8 @@
     "party": "Republican",
     "total_medicaid": 29000,
     "snap_households": 21000,
-    "jobs_risk": 1156
+    "jobs_risk": 1156,
+    "is_target_district": false
   },
   {
     "district": "TN-02",
@@ -2533,7 +2849,8 @@
     "party": "Republican",
     "total_medicaid": 27000,
     "snap_households": 14000,
-    "jobs_risk": 26
+    "jobs_risk": 26,
+    "is_target_district": false
   },
   {
     "district": "TN-04",
@@ -2541,7 +2858,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 18000,
-    "jobs_risk": 400
+    "jobs_risk": 400,
+    "is_target_district": false
   },
   {
     "district": "TN-05",
@@ -2549,7 +2867,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 9000,
-    "jobs_risk": 145
+    "jobs_risk": 145,
+    "is_target_district": true
   },
   {
     "district": "TN-06",
@@ -2557,7 +2876,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 18000,
-    "jobs_risk": 1386
+    "jobs_risk": 1386,
+    "is_target_district": false
   },
   {
     "district": "TN-07",
@@ -2565,7 +2885,8 @@
     "party": "Republican",
     "total_medicaid": 27000,
     "snap_households": 15000,
-    "jobs_risk": 2786
+    "jobs_risk": 2786,
+    "is_target_district": false
   },
   {
     "district": "TN-08",
@@ -2573,7 +2894,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 17000,
-    "jobs_risk": 12293
+    "jobs_risk": 12293,
+    "is_target_district": false
   },
   {
     "district": "TN-09",
@@ -2581,7 +2903,8 @@
     "party": "Democrat",
     "total_medicaid": 32000,
     "snap_households": 29000,
-    "jobs_risk": 469
+    "jobs_risk": 469,
+    "is_target_district": false
   },
   {
     "district": "TX-01",
@@ -2589,7 +2912,8 @@
     "party": "Republican",
     "total_medicaid": 44000,
     "snap_households": 21000,
-    "jobs_risk": 1180
+    "jobs_risk": 1180,
+    "is_target_district": false
   },
   {
     "district": "TX-02",
@@ -2597,7 +2921,8 @@
     "party": "Republican",
     "total_medicaid": 40000,
     "snap_households": 15000,
-    "jobs_risk": 1172
+    "jobs_risk": 1172,
+    "is_target_district": false
   },
   {
     "district": "TX-03",
@@ -2605,7 +2930,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 8000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-04",
@@ -2613,7 +2939,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 12000,
-    "jobs_risk": 4377
+    "jobs_risk": 4377,
+    "is_target_district": false
   },
   {
     "district": "TX-05",
@@ -2621,7 +2948,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 22000,
-    "jobs_risk": 2846
+    "jobs_risk": 2846,
+    "is_target_district": false
   },
   {
     "district": "TX-06",
@@ -2629,7 +2957,8 @@
     "party": "Republican",
     "total_medicaid": 42000,
     "snap_households": 16000,
-    "jobs_risk": 7759
+    "jobs_risk": 7759,
+    "is_target_district": false
   },
   {
     "district": "TX-07",
@@ -2637,7 +2966,8 @@
     "party": "Democrat",
     "total_medicaid": 40000,
     "snap_households": 20000,
-    "jobs_risk": 744
+    "jobs_risk": 744,
+    "is_target_district": false
   },
   {
     "district": "TX-08",
@@ -2645,7 +2975,8 @@
     "party": "Republican",
     "total_medicaid": 41000,
     "snap_households": 20000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-09",
@@ -2653,7 +2984,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 32000,
-    "jobs_risk": 229
+    "jobs_risk": 229,
+    "is_target_district": false
   },
   {
     "district": "TX-10",
@@ -2661,7 +2993,8 @@
     "party": "Republican",
     "total_medicaid": 39000,
     "snap_households": 14000,
-    "jobs_risk": 4786
+    "jobs_risk": 4786,
+    "is_target_district": false
   },
   {
     "district": "TX-11",
@@ -2669,7 +3002,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 16000,
-    "jobs_risk": 10111
+    "jobs_risk": 10111,
+    "is_target_district": false
   },
   {
     "district": "TX-12",
@@ -2677,7 +3011,8 @@
     "party": "Republican",
     "total_medicaid": 40000,
     "snap_households": 16000,
-    "jobs_risk": 263
+    "jobs_risk": 263,
+    "is_target_district": false
   },
   {
     "district": "TX-14",
@@ -2685,7 +3020,8 @@
     "party": "Republican",
     "total_medicaid": 42000,
     "snap_households": 19000,
-    "jobs_risk": 11185
+    "jobs_risk": 11185,
+    "is_target_district": false
   },
   {
     "district": "TX-15",
@@ -2693,7 +3029,8 @@
     "party": "Republican",
     "total_medicaid": 48000,
     "snap_households": 42000,
-    "jobs_risk": 1560
+    "jobs_risk": 1560,
+    "is_target_district": true
   },
   {
     "district": "TX-16",
@@ -2701,7 +3038,8 @@
     "party": "Democrat",
     "total_medicaid": 46000,
     "snap_households": 36000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-17",
@@ -2709,7 +3047,8 @@
     "party": "Republican",
     "total_medicaid": 42000,
     "snap_households": 23000,
-    "jobs_risk": 11399
+    "jobs_risk": 11399,
+    "is_target_district": false
   },
   {
     "district": "TX-19",
@@ -2717,7 +3056,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 20000,
-    "jobs_risk": 12490
+    "jobs_risk": 12490,
+    "is_target_district": false
   },
   {
     "district": "TX-20",
@@ -2725,7 +3065,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 31000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-21",
@@ -2733,7 +3074,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 11000,
-    "jobs_risk": 256
+    "jobs_risk": 256,
+    "is_target_district": false
   },
   {
     "district": "TX-22",
@@ -2741,7 +3083,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 16000,
-    "jobs_risk": 8636
+    "jobs_risk": 8636,
+    "is_target_district": false
   },
   {
     "district": "TX-23",
@@ -2749,7 +3092,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 24000,
-    "jobs_risk": 6749
+    "jobs_risk": 6749,
+    "is_target_district": false
   },
   {
     "district": "TX-24",
@@ -2757,7 +3101,8 @@
     "party": "Republican",
     "total_medicaid": 36000,
     "snap_households": 7000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-25",
@@ -2765,7 +3110,8 @@
     "party": "Republican",
     "total_medicaid": 41000,
     "snap_households": 16000,
-    "jobs_risk": 4904
+    "jobs_risk": 4904,
+    "is_target_district": false
   },
   {
     "district": "TX-26",
@@ -2773,7 +3119,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 12000,
-    "jobs_risk": 523
+    "jobs_risk": 523,
+    "is_target_district": false
   },
   {
     "district": "TX-27",
@@ -2781,7 +3128,8 @@
     "party": "Republican",
     "total_medicaid": 45000,
     "snap_households": 26000,
-    "jobs_risk": 7472
+    "jobs_risk": 7472,
+    "is_target_district": false
   },
   {
     "district": "TX-28",
@@ -2789,7 +3137,8 @@
     "party": "Democrat",
     "total_medicaid": 48000,
     "snap_households": 36000,
-    "jobs_risk": 4042
+    "jobs_risk": 4042,
+    "is_target_district": false
   },
   {
     "district": "TX-29",
@@ -2797,7 +3146,8 @@
     "party": "Democrat",
     "total_medicaid": 48000,
     "snap_households": 40000,
-    "jobs_risk": 938
+    "jobs_risk": 938,
+    "is_target_district": false
   },
   {
     "district": "TX-30",
@@ -2805,7 +3155,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 27000,
-    "jobs_risk": 179
+    "jobs_risk": 179,
+    "is_target_district": false
   },
   {
     "district": "TX-31",
@@ -2813,7 +3164,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 15000,
-    "jobs_risk": 2675
+    "jobs_risk": 2675,
+    "is_target_district": false
   },
   {
     "district": "TX-32",
@@ -2821,7 +3173,8 @@
     "party": "Democrat",
     "total_medicaid": 41000,
     "snap_households": 16000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-33",
@@ -2829,7 +3182,8 @@
     "party": "Democrat",
     "total_medicaid": 45000,
     "snap_households": 25000,
-    "jobs_risk": 924
+    "jobs_risk": 924,
+    "is_target_district": false
   },
   {
     "district": "TX-36",
@@ -2837,7 +3191,8 @@
     "party": "Republican",
     "total_medicaid": 43000,
     "snap_households": 23000,
-    "jobs_risk": 7707
+    "jobs_risk": 7707,
+    "is_target_district": false
   },
   {
     "district": "TX-37",
@@ -2845,7 +3200,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 8000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "TX-38",
@@ -2853,7 +3209,8 @@
     "party": "Republican",
     "total_medicaid": 38000,
     "snap_households": 12000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "UT-01",
@@ -2861,7 +3218,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 8000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "UT-02",
@@ -2869,7 +3227,8 @@
     "party": "Republican",
     "total_medicaid": 47000,
     "snap_households": 12000,
-    "jobs_risk": 6587
+    "jobs_risk": 6587,
+    "is_target_district": false
   },
   {
     "district": "UT-03",
@@ -2877,7 +3236,8 @@
     "party": "Republican",
     "total_medicaid": 35000,
     "snap_households": 9000,
-    "jobs_risk": 2312
+    "jobs_risk": 2312,
+    "is_target_district": false
   },
   {
     "district": "UT-04",
@@ -2885,7 +3245,8 @@
     "party": "Republican",
     "total_medicaid": 33000,
     "snap_households": 8000,
-    "jobs_risk": 64
+    "jobs_risk": 64,
+    "is_target_district": false
   },
   {
     "district": "VA-02",
@@ -2893,7 +3254,8 @@
     "party": "Republican",
     "total_medicaid": 20000,
     "snap_households": 15000,
-    "jobs_risk": 2005
+    "jobs_risk": 2005,
+    "is_target_district": true
   },
   {
     "district": "VA-04",
@@ -2901,7 +3263,8 @@
     "party": "Democrat",
     "total_medicaid": 36000,
     "snap_households": 29000,
-    "jobs_risk": 2872
+    "jobs_risk": 2872,
+    "is_target_district": false
   },
   {
     "district": "VA-05",
@@ -2909,7 +3272,8 @@
     "party": "Republican",
     "total_medicaid": 26000,
     "snap_households": 24000,
-    "jobs_risk": 6370
+    "jobs_risk": 6370,
+    "is_target_district": false
   },
   {
     "district": "VA-06",
@@ -2917,7 +3281,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 20000,
-    "jobs_risk": 782
+    "jobs_risk": 782,
+    "is_target_district": false
   },
   {
     "district": "VA-07",
@@ -2925,7 +3290,8 @@
     "party": "Democrat",
     "total_medicaid": 22000,
     "snap_households": 14000,
-    "jobs_risk": 230
+    "jobs_risk": 230,
+    "is_target_district": false
   },
   {
     "district": "VA-11",
@@ -2933,7 +3299,8 @@
     "party": "Democrat",
     "total_medicaid": 12000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WA-01",
@@ -2941,7 +3308,8 @@
     "party": "Democrat",
     "total_medicaid": 28000,
     "snap_households": 8000,
-    "jobs_risk": 24
+    "jobs_risk": 24,
+    "is_target_district": false
   },
   {
     "district": "WA-02",
@@ -2949,7 +3317,8 @@
     "party": "Democrat",
     "total_medicaid": 41000,
     "snap_households": 14000,
-    "jobs_risk": 838
+    "jobs_risk": 838,
+    "is_target_district": false
   },
   {
     "district": "WA-03",
@@ -2957,7 +3326,8 @@
     "party": "Democrat",
     "total_medicaid": 50000,
     "snap_households": 19000,
-    "jobs_risk": 138
+    "jobs_risk": 138,
+    "is_target_district": false
   },
   {
     "district": "WA-04",
@@ -2965,7 +3335,8 @@
     "party": "Republican",
     "total_medicaid": 70000,
     "snap_households": 23000,
-    "jobs_risk": 5755
+    "jobs_risk": 5755,
+    "is_target_district": false
   },
   {
     "district": "WA-05",
@@ -2973,7 +3344,8 @@
     "party": "Republican",
     "total_medicaid": 54000,
     "snap_households": 18000,
-    "jobs_risk": 681
+    "jobs_risk": 681,
+    "is_target_district": false
   },
   {
     "district": "WA-06",
@@ -2981,7 +3353,8 @@
     "party": "Democrat",
     "total_medicaid": 43000,
     "snap_households": 15000,
-    "jobs_risk": 260
+    "jobs_risk": 260,
+    "is_target_district": false
   },
   {
     "district": "WA-07",
@@ -2989,7 +3362,8 @@
     "party": "Democrat",
     "total_medicaid": 24000,
     "snap_households": 7000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WA-08",
@@ -2997,7 +3371,8 @@
     "party": "Democrat",
     "total_medicaid": 34000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WA-10",
@@ -3005,7 +3380,8 @@
     "party": "Democrat",
     "total_medicaid": 47000,
     "snap_households": 17000,
-    "jobs_risk": 138
+    "jobs_risk": 138,
+    "is_target_district": false
   },
   {
     "district": "WI-01",
@@ -3013,7 +3389,8 @@
     "party": "Republican",
     "total_medicaid": 11000,
     "snap_households": 21000,
-    "jobs_risk": 106
+    "jobs_risk": 106,
+    "is_target_district": true
   },
   {
     "district": "WI-03",
@@ -3021,7 +3398,8 @@
     "party": "Republican",
     "total_medicaid": 10000,
     "snap_households": 16000,
-    "jobs_risk": 1808
+    "jobs_risk": 1808,
+    "is_target_district": true
   },
   {
     "district": "WI-04",
@@ -3029,7 +3407,8 @@
     "party": "Democrat",
     "total_medicaid": 15000,
     "snap_households": 37000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WI-05",
@@ -3037,7 +3416,8 @@
     "party": "Republican",
     "total_medicaid": 8000,
     "snap_households": 10000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WI-06",
@@ -3045,7 +3425,8 @@
     "party": "Republican",
     "total_medicaid": 9000,
     "snap_households": 15000,
-    "jobs_risk": 454
+    "jobs_risk": 454,
+    "is_target_district": false
   },
   {
     "district": "WI-07",
@@ -3053,7 +3434,8 @@
     "party": "Republican",
     "total_medicaid": 10000,
     "snap_households": 18000,
-    "jobs_risk": 218
+    "jobs_risk": 218,
+    "is_target_district": false
   },
   {
     "district": "WI-08",
@@ -3061,7 +3443,8 @@
     "party": "Republican",
     "total_medicaid": 10000,
     "snap_households": 15000,
-    "jobs_risk": 0
+    "jobs_risk": 0,
+    "is_target_district": false
   },
   {
     "district": "WV-01",
@@ -3069,7 +3452,8 @@
     "party": "Republican",
     "total_medicaid": 37000,
     "snap_households": 49000,
-    "jobs_risk": 1193
+    "jobs_risk": 1193,
+    "is_target_district": false
   },
   {
     "district": "WV-02",
@@ -3077,7 +3461,8 @@
     "party": "Republican",
     "total_medicaid": 28000,
     "snap_households": 36000,
-    "jobs_risk": 1426
+    "jobs_risk": 1426,
+    "is_target_district": false
   },
   {
     "district": "AK-AL",
@@ -3085,7 +3470,8 @@
     "party": "Republican",
     "total_medicaid": 25000,
     "snap_households": 17000,
-    "jobs_risk": 578
+    "jobs_risk": 578,
+    "is_target_district": true
   },
   {
     "district": "DE-AL",
@@ -3093,7 +3479,8 @@
     "party": "Democrat",
     "total_medicaid": 40000,
     "snap_households": 37000,
-    "jobs_risk": 423
+    "jobs_risk": 423,
+    "is_target_district": false
   },
   {
     "district": "DC-AL",
@@ -3101,7 +3488,8 @@
     "party": "Democrat",
     "total_medicaid": 38000,
     "snap_households": 24000,
-    "jobs_risk": 3
+    "jobs_risk": 3,
+    "is_target_district": false
   },
   {
     "district": "SD-AL",
@@ -3109,7 +3497,8 @@
     "party": "Republican",
     "total_medicaid": 17000,
     "snap_households": 14000,
-    "jobs_risk": 1320
+    "jobs_risk": 1320,
+    "is_target_district": false
   },
   {
     "district": "VT-AL",
@@ -3117,7 +3506,8 @@
     "party": "Democrat",
     "total_medicaid": 18000,
     "snap_households": 16000,
-    "jobs_risk": 177
+    "jobs_risk": 177,
+    "is_target_district": false
   },
   {
     "district": "WY-AL",
@@ -3125,6 +3515,7 @@
     "party": "Republican",
     "total_medicaid": 10000,
     "snap_households": 8000,
-    "jobs_risk": 7480
+    "jobs_risk": 7480,
+    "is_target_district": false
   }
 ]

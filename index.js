@@ -1,7 +1,8 @@
+// === FULL FINAL INDEX.JS ===
+
 window.addEventListener('DOMContentLoaded', async () => {
   console.log('🚩 index.js running');
 
-  // ✅ Fetch all your JSONs
   const [totalsRes, districtsRes, messagesRes, stateMessagesRes] = await Promise.all([
     fetch('./state_national_republican_swing_totals.json'),
     fetch('./merged_district_data.json'),
@@ -14,23 +15,21 @@ window.addEventListener('DOMContentLoaded', async () => {
   const districtMessages = await messagesRes.json();
   const stateMessages = await stateMessagesRes.json();
 
-  // ✅ DOM elements
   const stateSelect = document.getElementById('state-select');
   const districtSelect = document.getElementById('district-select');
   const filterRepBtn = document.getElementById('filter-republican');
   const filterSwingBtn = document.getElementById('filter-swing');
   const clearFiltersBtn = document.getElementById('clear-filters');
 
-  const healthcareTotal = document.getElementById('healthcare-total');
-  const snapTotal = document.getElementById('snap-total');
-  const veteransTotal = document.getElementById('veterans-total');
+  const healthcareTotal = document.getElementById('healthcareTotal');
+  const snapTotal = document.getElementById('snapTotal');
+  const jobsTotal = document.getElementById('jobsTotal');
 
   const cardsTitle = document.getElementById('cards-title');
   const cardsContainer = document.getElementById('cards-container');
   const stateReportEl = document.getElementById('state-report');
   const districtReportEl = document.getElementById('district-report');
 
-  // ✅ Populate dropdowns
   Object.keys(totals.states).sort().forEach(st => {
     const opt = document.createElement('option');
     opt.value = st;
@@ -48,14 +47,22 @@ window.addEventListener('DOMContentLoaded', async () => {
       districtSelect.appendChild(opt);
     });
 
-  // ✅ Update counters
   function updateCounters(src) {
-    healthcareTotal.textContent = (src.total_medicaid || 0).toLocaleString();
-    snapTotal.textContent = (src.snap_households || 0).toLocaleString();
-    veteransTotal.textContent = (src.veteran_population || 0).toLocaleString();
+    healthcareTotal.textContent = formatNumber(src.total_medicaid || 0);
+    snapTotal.textContent = formatNumber(src.snap_households || 0);
+    jobsTotal.textContent = formatNumber(src.jobs_risk || 0);
   }
 
-  // ✅ State-level report renderer
+  function formatNumber(num) {
+    if (num >= 1000000) {
+      return (num / 1000000).toFixed(1) + 'M';
+    }
+    if (num >= 1000) {
+      return (num / 1000).toFixed(0) + 'K';
+    }
+    return num;
+  }
+
   function showStateReport(code) {
     const msg = stateMessages.find(m => m.state === code);
     if (!msg) {
@@ -82,7 +89,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     stateReportEl.style.display = 'block';
   }
 
-  // ✅ District-level report with Congressman name
   function showDistrictReport(code) {
     const msg = districtMessages.find(m => m.district === code);
     if (!msg) {
@@ -108,7 +114,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     districtReportEl.style.display = 'block';
   }
 
-  // ✅ Default swing view — NO AUTO-SCROLL here
   function applyClear() {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.US_totals);
@@ -118,7 +123,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     districtReportEl.style.display = 'none';
   }
 
-  // ✅ Render default swing cards
   function renderCards(list) {
     cardsContainer.innerHTML = '';
     if (!list.length) {
@@ -134,7 +138,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         <div class="raw-data" style="display:none;">
           <p>Total Medicaid: ${d.total_medicaid.toLocaleString()}</p>
           <p>SNAP Households: ${d.snap_households.toLocaleString()}</p>
-          <p>Veterans: ${d.veteran_population.toLocaleString()}</p>
+          <p>Job Losses: ${d.jobs_risk.toLocaleString()}</p>
         </div>
       `;
       const toggleBtn = card.querySelector('.toggle-data');
@@ -148,19 +152,16 @@ window.addEventListener('DOMContentLoaded', async () => {
     });
   }
 
-  // ✅ All Republican-Held filter + scroll
   filterRepBtn.addEventListener('click', () => {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.republican_totals);
     cardsContainer.style.display = '';
-    renderCards(districts.filter(d => d.Party === 'R'));
+    renderCards(districts.filter(d => d.party === 'R'));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
-
     cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
-  // ✅ Top 50 Swing filter + scroll
   filterSwingBtn.addEventListener('click', () => {
     cardsTitle.textContent = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.swing_totals);
@@ -168,26 +169,20 @@ window.addEventListener('DOMContentLoaded', async () => {
     renderCards(districts.filter(d => d.is_target_district));
     stateReportEl.style.display = 'none';
     districtReportEl.style.display = 'none';
-
     cardsContainer.scrollIntoView({ behavior: 'smooth' });
   });
 
-  // ✅ State filter: show report + dropdown + scroll
   stateSelect.addEventListener('change', () => {
     const st = stateSelect.value;
     if (!st) {
       applyClear();
       return;
     }
-
     updateCounters(totals.states[st] || {});
     districtReportEl.style.display = 'none';
-
     showStateReport(st);
     stateReportEl.scrollIntoView({ behavior: 'smooth' });
-
     const swings = districts.filter(d => d.district.startsWith(st) && d.is_target_district);
-
     if (swings.length) {
       cardsTitle.textContent = `Swing Districts in ${st}`;
       let selectHTML = `<select id="swing-select"><option value="">Select Swing District</option>`;
@@ -195,9 +190,7 @@ window.addEventListener('DOMContentLoaded', async () => {
         selectHTML += `<option value="${d.district}">${d.district}</option>`;
       });
       selectHTML += `</select>`;
-
       cardsContainer.innerHTML = selectHTML;
-
       document.getElementById('swing-select').addEventListener('change', e => {
         const pick = e.target.value;
         if (pick) {
@@ -205,7 +198,6 @@ window.addEventListener('DOMContentLoaded', async () => {
           districtSelect.dispatchEvent(new Event('change'));
         }
       });
-
       cardsContainer.style.display = '';
     } else {
       cardsTitle.textContent = `No Swing Districts in ${st}`;
@@ -214,7 +206,6 @@ window.addEventListener('DOMContentLoaded', async () => {
     }
   });
 
-  // ✅ District filter: show report + scroll
   districtSelect.addEventListener('change', () => {
     const code = districtSelect.value;
     if (!code) {
@@ -226,16 +217,14 @@ window.addEventListener('DOMContentLoaded', async () => {
     updateCounters({
       total_medicaid: d.total_medicaid,
       snap_households: d.snap_households,
-      veteran_population: d.veteran_population
+      jobs_risk: d.jobs_risk
     });
     cardsContainer.style.display = 'none';
     stateReportEl.style.display = 'none';
-
     showDistrictReport(code);
     districtReportEl.scrollIntoView({ behavior: 'smooth' });
   });
 
   clearFiltersBtn.addEventListener('click', applyClear);
-
   applyClear();
 });
