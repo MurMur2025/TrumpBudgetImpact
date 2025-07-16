@@ -1,8 +1,8 @@
 window.addEventListener('DOMContentLoaded', async () => {
-  // 1. Fetch data
+  // 1. Fetch data (use swing-specific JSON for districts)
   const [totalsRes, districtsRes, messagesRes, stateMessagesRes] = await Promise.all([
     fetch('./state_national_republican_swing_totals.json'),
-    fetch('./merged_district_data.json'),
+    fetch('./merged_district_data_swing.json'),
     fetch('./district_messaging.json'),
     fetch('./state_messaging.json')
   ]);
@@ -65,22 +65,18 @@ window.addEventListener('DOMContentLoaded', async () => {
           <p>SNAP Households: ${formatNumber(d.snap_households)}</p>
           <p>Job Losses: ${formatNumber(d.jobs_risk)}</p>
         </div>`;
-      const btn = card.querySelector('.toggle-data'),
-            raw = card.querySelector('.raw-data');
+      const btn = card.querySelector('.toggle-data'), raw = card.querySelector('.raw-data');
       btn.addEventListener('click', ()=>{
-        const showing = raw.style.display==='block';
-        raw.style.display = showing?'none':'block';
-        btn.textContent   = showing?'Show Data ▼':'Hide Data ▲';
+        const show = raw.style.display==='block';
+        raw.style.display = show ? 'none' : 'block';
+        btn.textContent = show ? 'Show Data ▼' : 'Hide Data ▲';
       });
       cardsContainer.appendChild(card);
     });
   }
   function showStateReport(code){
     const msg = stateMessages.find(m=>m.state===code);
-    if(!msg){
-      stateReportEl.innerHTML = `<p>No state report for ${code}.</p>`;
-      return stateReportEl.style.display='block';
-    }
+    if(!msg){ stateReportEl.innerHTML = `<p>No state report for ${code}.</p>`; return stateReportEl.style.display='block'; }
     let html = `<h3>State Report: ${msg.state}</h3>
       <p><strong>Senators:</strong> ${msg.senators.join(', ')}</p>
       <p>${msg.summary}</p>
@@ -92,10 +88,7 @@ window.addEventListener('DOMContentLoaded', async () => {
   }
   function showDistrictReport(code){
     const msg = districtMessages.find(m=>m.district===code);
-    if(!msg){
-      districtReportEl.innerHTML = `<p>No report for ${code}.</p>`;
-      return districtReportEl.style.display='block';
-    }
+    if(!msg){ districtReportEl.innerHTML = `<p>No report for ${code}.</p>`; return districtReportEl.style.display='block'; }
     let html = `<h3>Report for ${code} — ${msg.rep_name}</h3>
       <p>${msg.output.summary}</p>
       <h4>National Impacts</h4><ul>${msg.output.national_impacts.map(i=>`<li>${i}</li>`).join('')}</ul>
@@ -108,74 +101,51 @@ window.addEventListener('DOMContentLoaded', async () => {
   // 5. Swing-select population
   function populateGlobalSwing(){
     swingSelect.innerHTML = '<option value="">Select Swing District</option>';
-    districts
-      .filter(d=>d.is_target_district)
-      .sort((a,b)=>a.district.localeCompare(b.district))
-      .forEach(d=>{
-        const o = document.createElement('option');
-        o.value = d.district; o.textContent = d.district;
-        swingSelect.appendChild(o);
-      });
+    districts.filter(d=>d.is_target_district).sort((a,b)=>a.district.localeCompare(b.district)).forEach(d=>{
+      const o=document.createElement('option'); o.value=d.district; o.textContent=d.district;
+      swingSelect.appendChild(o);
+    });
   }
   function populateStateSwing(st){
     swingSelect.innerHTML = '<option value="">Select Swing District</option>';
-    districts
-      .filter(d=>d.district.startsWith(st) && d.is_target_district)
-      .sort((a,b)=>a.district.localeCompare(b.district))
-      .forEach(d=>{
-        const o = document.createElement('option');
-        o.value = d.district; o.textContent = d.district;
-        swingSelect.appendChild(o);
-      });
+    districts.filter(d=>d.district.startsWith(st)&&d.is_target_district).sort((a,b)=>a.district.localeCompare(b.district)).forEach(d=>{
+      const o=document.createElement('option'); o.value=d.district; o.textContent=d.district;
+      swingSelect.appendChild(o);
+    });
   }
 
   // 6. Clear & reset view
   function applyClear(){
-    cardsTitle.textContent       = 'Most Vulnerable Republican Held Districts';
+    cardsTitle.textContent='Most Vulnerable Republican Held Districts';
     updateCounters(totals.US_totals);
     renderCards(districts.filter(d=>d.is_target_district));
-    cardsContainer.style.display   = '';
-    stateReportEl.style.display    = 'none';
-    districtReportEl.style.display = 'none';
-    stateSelect.value    = '';
-    districtSelect.value = '';
+    cardsContainer.style.display='';
+    stateReportEl.style.display='none'; districtReportEl.style.display='none';
+    stateSelect.value=''; districtSelect.value='';
     populateGlobalSwing();
   }
 
   // 7. Event listeners
   stateSelect.addEventListener('change', ()=>{
-    stateReportEl.style.display    = 'none';
-    districtReportEl.style.display = 'none';
-    const st = stateSelect.value;
-    if(!st) return applyClear();
-    updateCounters(totals.states[st]||{});
-    showStateReport(st);
+    stateReportEl.style.display='none'; districtReportEl.style.display='none';
+    const st=stateSelect.value; if(!st) return applyClear();
+    updateCounters(totals.states[st]||{}); showStateReport(st);
     stateReportEl.scrollIntoView({behavior:'smooth'});
     populateStateSwing(st);
   });
-
   swingSelect.addEventListener('change', ()=>{
-    const code = swingSelect.value;
-    if(code){
-      districtSelect.value = code;
-      districtSelect.dispatchEvent(new Event('change'));
-    } else {
-      stateSelect.dispatchEvent(new Event('change'));
-    }
+    const code=swingSelect.value;
+    if(code){ districtSelect.value=code; districtSelect.dispatchEvent(new Event('change')); }
+    else stateSelect.dispatchEvent(new Event('change'));
   });
-
   districtSelect.addEventListener('change', ()=>{
-    const code = districtSelect.value;
-    if(!code) return applyClear();
-    const d = districts.find(x=>x.district===code);
-    updateCounters({total_medicaid:d.total_medicaid, snap_households:d.snap_households, jobs_risk:d.jobs_risk});
-    cardsContainer.style.display   = 'none';
-    stateReportEl.style.display    = 'none';
-    showDistrictReport(code);
-    districtReportEl.scrollIntoView({behavior:'smooth'});
+    const code=districtSelect.value; if(!code) return applyClear();
+    const d=districts.find(x=>x.district===code);
+    updateCounters({total_medicaid:d.total_medicaid,snap_households:d.snap_households,jobs_risk:d.jobs_risk});
+    cardsContainer.style.display='none'; stateReportEl.style.display='none';
+    showDistrictReport(code); districtReportEl.scrollIntoView({behavior:'smooth'});
   });
-
-  clearFiltersBtn.addEventListener('click', applyClear);
+  clearFiltersBtn.addEventListener('click',applyClear);
 
   // 8. Initial load
   applyClear();
