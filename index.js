@@ -44,9 +44,8 @@ window.addEventListener('DOMContentLoaded', async () => {
       districtSelect.appendChild(opt);
     });
 
-  // 4. Initialize swing dropdown
-  swingSelect.innerHTML = '<option value=\"\">Select Swing District</option>';
-  swingSelect.disabled = true;
+  // 4. Initialize swing dropdown (no disabled logic)
+  swingSelect.innerHTML = '<option value="">Select Swing District</option>';
 
   // 5. Helper functions
   function formatNumber(num) {
@@ -118,6 +117,8 @@ window.addEventListener('DOMContentLoaded', async () => {
     districtReportEl.innerHTML = html;
     districtReportEl.style.display = 'block';
   }
+
+  // 6. Clear & populate functions (no disabling)
   function applyClear() {
     cardsTitle.textContent         = 'Most Vulnerable Republican Held Districts';
     updateCounters(totals.US_totals);
@@ -126,12 +127,11 @@ window.addEventListener('DOMContentLoaded', async () => {
     stateReportEl.style.display    = 'none';
     districtReportEl.style.display = 'none';
     stateSelect.value              = '';
-    swingSelect.innerHTML          = '<option value=\"\">Select Swing District</option>';
-    swingSelect.disabled           = true;
+    swingSelect.innerHTML          = '<option value="">Select Swing District</option>';
     districtSelect.value           = '';
   }
   function populateSwingSelect(stateCode) {
-    swingSelect.innerHTML = '<option value=\"\">Select Swing District</option>';
+    swingSelect.innerHTML = '<option value="">Select Swing District</option>';
     districts
       .filter(d => d.district.startsWith(stateCode) && d.is_target_district)
       .sort((a,b) => a.district.localeCompare(b.district))
@@ -141,10 +141,10 @@ window.addEventListener('DOMContentLoaded', async () => {
         opt.textContent = d.district;
         swingSelect.appendChild(opt);
       });
-    swingSelect.disabled = !swingSelect.querySelector('option[value]:nth-child(2)');
+    // always enabled
   }
 
-  // 6. Event listeners
+  // 7. Event listeners
   stateSelect.addEventListener('change', () => {
     const st = stateSelect.value;
     stateReportEl.style.display    = 'none';
@@ -162,7 +162,6 @@ window.addEventListener('DOMContentLoaded', async () => {
       districtSelect.value = code;
       districtSelect.dispatchEvent(new Event('change'));
     } else {
-      // go back to just state view
       stateSelect.dispatchEvent(new Event('change'));
     }
   });
@@ -181,6 +180,6 @@ window.addEventListener('DOMContentLoaded', async () => {
 
   clearFiltersBtn.addEventListener('click', applyClear);
 
-  // 7. Initial load
+  // 8. Initial load
   applyClear();
 });
