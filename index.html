@@ -19,12 +19,6 @@
     .counter-block { flex: 1 1 200px; background: #fff; border: 1px solid #ccc; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 1px 5px rgba(0,0,0,0.05); }
     .counter-block h3 { margin: 0 0 10px; font-size: 1.1em; }
     .big-number { font-size: 1.8em; font-weight: bold; color: #007acc; }
-    #cards-title { margin: 20px 0 10px; font-size: 1.3em; color: #E81B23; }
-    .cards-container { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 20px; }
-    .card { border: 1px solid #ccc; border-radius: 6px; padding: 12px; background: #fff; text-align: center; }
-    .card h3 { margin: 0 0 8px; font-size: 18px; }
-    .toggle-data { color: #007acc; cursor: pointer; font-size: 14px; }
-    .raw-data { margin-top: 8px; text-align: left; font-size: 13px; background: #f0f0f0; padding: 8px; border-radius: 4px; }
     #state-report, #district-report { display: none; background: #fff; border: 1px solid #ccc; border-radius: 6px; padding: 20px; margin-top: 20px; }
     footer { text-align: center; margin-top: 40px; font-size: 0.9em; color: #555; }
     footer a { color: #007acc; text-decoration: none; }
@@ -38,80 +32,42 @@
 
   <h1>Trump’s Budget Bill: Local Damage Report</h1>
   <p class="tagline">See how it impacts your communities. Add Your Voice. Fight Back.</p>
-  <p class="small-note">
-    The Republican's budget bill cuts $930 billion from Medicaid, kicks 16 million off health insurance, cuts food assistance by almost $300 billion, and cuts vital services for our Veterans. Use the filters below to view impacts at the state or district level. Selecting a state will show the statewide summary and its most vulnerable swing districts. Selecting a district will display its full report below. Now includes all districts.
-  </p>
+  <p class="small-note">The Republican's budget bill cuts $930 billion from Medicaid, kicks 16 million off health insurance, cuts food assistance by almost $300 billion, and cuts vital services for our Veterans. Use the filters below to view impacts at the state or district level.</p>
 
   <!-- National Impact -->
   <h2 class="section-title">National Impact</h2>
   <div class="summary-grid">
-    <div class="counter-block">
-      <h3>Estimated National Debt Increase</h3>
-      <p class="big-number">$4 Trillion</p>
-    </div>
-    <div class="counter-block">
-      <h3>Estimated Tax Savings For Billionaires</h3>
-      <p class="big-number">$1.25 Trillion</p>
-    </div>
-    <div class="counter-block">
-      <h3>ICE's Increased Budget</h3>
-      <p class="big-number">$100 Billion</p>
-    </div>
+    <div class="counter-block"><h3>Estimated National Debt Increase</h3><p class="big-number">$4 Trillion</p></div>
+    <div class="counter-block"><h3>Estimated Tax Savings For Billionaires</h3><p class="big-number">$1.25 Trillion</p></div>
+    <div class="counter-block"><h3>ICE's Increased Budget</h3><p class="big-number">$100 Billion</p></div>
   </div>
   <div class="counter-grid">
-    <div class="counter-block">
-      <h3>Medicaid Cuts</h3>
-      <p class="big-number">$1.02 Trillion</p>
-    </div>
-    <div class="counter-block">
-      <h3>SNAP Cuts</h3>
-      <p class="big-number">$290 Billion</p>
-    </div>
-    <div class="counter-block">
-      <h3>Total Jobs Lost</h3>
-      <p class="big-number">Nearly 6 Million</p>
-    </div>
+    <div class="counter-block"><h3>Medicaid Cuts</h3><p class="big-number">$1.02 Trillion</p></div>
+    <div class="counter-block"><h3>SNAP Cuts</h3><p class="big-number">$290 Billion</p></div>
+    <div class="counter-block"><h3>Total Jobs Lost</h3><p class="big-number">Nearly 6 Million</p></div>
   </div>
 
   <!-- Filters -->
   <div class="filter-bar">
-    <select id="state-select">
-      <option value="">Select State</option>
-    </select>
-    <select id="swing-select">
-      <option value="">Select Swing District</option>
-    </select>
-    <select id="district-select">
-      <option value="">Select District</option>
-    </select>
+    <select id="state-select"><option value="">Select State</option></select>
+    <select id="swing-select"><option value="">Select Swing District</option></select>
+    <select id="district-select"><option value="">Select District</option></select>
     <button id="clear-filters">Clear Filter</button>
   </div>
 
   <!-- Dynamic Impact -->
   <div class="counter-grid">
-    <div class="counter-block">
-      <h3>Healthcare Losses</h3>
-      <p class="big-number" id="healthcareTotal">0</p>
-    </div>
-    <div class="counter-block">
-      <h3>SNAP Losses</h3>
-      <p class="big-number" id="snapTotal">0</p>
-    </div>
-    <div class="counter-block">
-      <h3>Job Losses</h3>
-      <p class="big-number" id="jobsTotal">0</p>
-    </div>
+    <div class="counter-block"><h3>Healthcare Losses</h3><p class="big-number" id="healthcareTotal">0</p></div>
+    <div class="counter-block"><h3>SNAP Losses</h3><p class="big-number" id="snapTotal">0</p></div>
+    <div class="counter-block"><h3>Job Losses</h3><p class="big-number" id="jobsTotal">0</p></div>
   </div>
 
-  <h2 id="cards-title">Most Vulnerable Republican Held Districts</h2>
-  <div id="cards-container" class="cards-container"></div>
-
+  <!-- Reports -->
   <div id="state-report"></div>
   <div id="district-report"></div>
 
   <footer>
-    Looking for more AI-powered fact checks? Visit <a href="https://www.politicaltruthhub.com/" target="_blank">Political Truth Hub</a>.<br />
-    <strong>The site is going through updates, some functionality is not working yet.</strong>
+    Looking for more AI-powered fact checks? Visit <a href="https://www.politicaltruthhub.com/" target="_blank">Political Truth Hub</a>.
   </footer>
 
   <script src="index.js"></script>
