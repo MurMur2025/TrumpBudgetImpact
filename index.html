@@ -12,7 +12,8 @@
     h1 { margin: 0; font-size: 2em; color: #E81B23; }
     .tagline { font-size: 1.1em; color: #333; margin-bottom: 5px; }
     .small-note { font-size: 0.95em; color: #555; margin-bottom: 20px; line-height: 1.4; }
-    .filter-bar { margin-bottom: 20px; }
+    .section-title { margin: 20px 0 10px; font-size: 1.3em; color: #E81B23; }
+    .filter-bar { margin: 20px 0; }
     .filter-bar select, .filter-bar button { margin-right: 10px; padding: 6px 12px; font-size: 14px; }
     .summary-grid, .counter-grid { display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 20px; }
     .counter-block { flex: 1 1 200px; background: #fff; border: 1px solid #ccc; border-radius: 8px; padding: 20px; text-align: center; box-shadow: 0 1px 5px rgba(0,0,0,0.05); }
@@ -39,13 +40,8 @@
   <p class="tagline">See how it impacts your communities. Add Your Voice. Fight Back.</p>
   <p class="small-note">The Republican's budget bill cuts $930 billion from Medicaid, kicks 16 million off health insurance, cuts food assistance by almost $300 billion, and cuts vital services for our Veterans. Use the filters below to view impacts at the state or district level. Selecting a state will show the statewide summary and its most vulnerable swing districts. Selecting a district will display its full report below. Now includes all districts.</p>
 
-  <div class="filter-bar">
-    <select id="state-select"><option value="">Select State</option></select>
-    <select id="district-select"><option value="">Select District</option></select>
-    <button id="filter-swing">Swing GOP Held Districts</button>
-    <button id="clear-filters">Clear Filter</button>
-  </div>
-
+  <!-- National Impact Section -->
+  <h2 class="section-title">National Impact</h2>
   <div class="summary-grid">
     <div class="counter-block"><h3>Estimated National Debt Increase</h3><p class="big-number">$4 Trillion</p></div>
     <div class="counter-block"><h3>Estimated Tax Savings For Billionaires</h3><p class="big-number">$1.25 Trillion</p></div>
@@ -56,6 +52,16 @@
     <div class="counter-block"><h3>SNAP Cuts</h3><p class="big-number">$290 Billion</p></div>
     <div class="counter-block"><h3>Total Jobs Lost</h3><p class="big-number">Nearly 6 Million</p></div>
   </div>
+
+  <!-- Filters moved here -->
+  <div class="filter-bar">
+    <select id="state-select"><option value="">Select State</option></select>
+    <select id="district-select"><option value="">Select District</option></select>
+    <button id="filter-swing">Swing GOP Held Districts</button>
+    <button id="clear-filters">Clear Filter</button>
+  </div>
+
+  <!-- Dynamic Impact Section -->
   <div class="counter-grid">
     <div class="counter-block"><h3>Healthcare Losses</h3><p class="big-number" id="healthcareTotal">0</p></div>
     <div class="counter-block"><h3>SNAP Losses</h3><p class="big-number" id="snapTotal">0</p></div>
@@ -68,7 +74,7 @@
   <div id="state-report"></div>
   <div id="district-report"></div>
 
-    <footer>
+  <footer>
     Looking for more AI-powered fact checks? Visit <a href="https://www.politicaltruthhub.com/" target="_blank">Political Truth Hub</a>.<br/>
     <strong>The site is going through updates, some functionality is not working yet.</strong>
   </footer>
