@@ -548,5 +548,221 @@
       ],
       "social_post": "Say NO to the Big Beautiful Bill! It risks our health, our farms, and our community. Protect Montana's families, veterans, and farmers. #StopTheBill #HealthcareNotWealthcare"
     }
+  }, 
+  {
+    "district": "AZ02",
+    "rep_name": "Rep. Eli Crane",
+    "output": {
+      "summary": "In Arizona’s 2nd Congressional District, the ‘Big Beautiful Bill’ backed by Rep. Eli Crane threatens to cut Medicaid for 41,000 locals, slash SNAP benefits for 25,000 households, and put 1,713 jobs at risk.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "41,000 Arizonans could lose their Medicaid coverage—the foundation of our community’s healthcare safety net.",
+        "25,000 local households that rely on SNAP face severe cuts to their food assistance.",
+        "This proposal endangers 1,713 jobs in our district, undermining our local economy."
+      ],
+      "social_post": "🚨 Urgent: Rep. Eli Crane’s support for the Big Beautiful Bill risks cutting Medicaid for 41,000 Arizonans, slashing SNAP for 25,000 households, and putting 1,713 jobs at risk! We can’t afford this. #AZ02 #SaveOurHealthcare"
+    }
+  },
+  {
+    "district": "FL07",
+    "rep_name": "Rep. Cory Mills",
+    "output": {
+      "summary": "In Florida’s 7th Congressional District, Rep. Cory Mills’s backing of the ‘Big Beautiful Bill’ puts 61,000 people at risk of losing Medicaid, threatens SNAP for 16,000 households, and jeopardizes 38 local jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "61,000 Floridians in our district could be stripped of Medicaid coverage.",
+        "16,000 households that depend on SNAP may lose essential food assistance.",
+        "Even 38 jobs in FL-07 are on the line because of these sweeping cuts."
+      ],
+      "social_post": "🚨 Rep. Cory Mills’s support for the Big Beautiful Bill threatens Medicaid for 61,000 in FL-07, slashes SNAP for 16,000 households, and puts 38 jobs at risk. Stand up for our community! #FL07 #SaveOurSafetyNet"
+    }
+  },
+  {
+    "district": "KY06",
+    "rep_name": "Rep. Andy Barr",
+    "output": {
+      "summary": "In Kentucky’s 6th Congressional District, the ‘Big Beautiful Bill’ championed by Rep. Andy Barr would cut Medicaid for 25,000 residents, slash SNAP for 18,000 households, and endanger 4,639 jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "25,000 of our neighbors could lose Medicaid, stripping away vital healthcare coverage.",
+        "18,000 households here rely on SNAP and face severe benefit reductions.",
+        "4,639 local jobs hang in the balance under this proposal."
+      ],
+      "social_post": "🚨 Rep. Andy Barr’s backing of the Big Beautiful Bill cuts Medicaid for 25,000 Kentuckians, slashes SNAP for 18,000 households, and jeopardizes 4,639 jobs. We can do better. #KY06 #HealthcareForAll"
+    }
+  },
+  {
+    "district": "MI04",
+    "rep_name": "Rep. Bill Huizenga",
+    "output": {
+      "summary": "In Michigan’s 4th Congressional District, Rep. Bill Huizenga’s support for the ‘Big Beautiful Bill’ risks cutting Medicaid for 21,000 people, reducing SNAP benefits for 17,000 households, and threatening 7,909 jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "21,000 constituents here could lose Medicaid, destabilizing healthcare access.",
+        "17,000 households may see their SNAP benefits slashed, risking food security.",
+        "7,909 jobs in our district are at risk under this budget proposal."
+      ],
+      "social_post": "🚨 Rep. Bill Huizenga’s vote for the Big Beautiful Bill could end Medicaid for 21,000 in MI-04, cut SNAP for 17,000 households, and jeopardize 7,909 jobs! #MI04 #ProtectOurCommunity"
+    }
+  },
+  {
+    "district": "MI07",
+    "rep_name": "Rep. Tom Barrett",
+    "output": {
+      "summary": "In Michigan’s 7th Congressional District, the ‘Big Beautiful Bill’ backed by Rep. Tom Barrett would strip Medicaid from 17,000 residents, cut SNAP for 15,000 households, and put 4,352 jobs at risk.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "17,000 Michiganders here could lose their Medicaid coverage under this plan.",
+        "15,000 local families that depend on SNAP could have their food assistance slashed.",
+        "4,352 jobs in MI-07 hang in the balance because of these cuts."
+      ],
+      "social_post": "🚨 Rep. Tom Barrett’s support for the Big Beautiful Bill risks Medicaid for 17,000 and SNAP for 15,000 households in MI-07—and 4,352 jobs! #MI07 #SaveOurSafetyNet"
+    }
+  },
+  {
+    "district": "MO02",
+    "rep_name": "Rep. Ann Wagner",
+    "output": {
+      "summary": "In Missouri’s 2nd Congressional District, Rep. Ann Wagner’s vote for the ‘Big Beautiful Bill’ threatens to cut Medicaid for 11,000 locals and slash SNAP benefits for 9,000 households—even if no jobs here are directly at risk, the health and stability of families will suffer.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "11,000 of our neighbors stand to lose Medicaid coverage and critical healthcare access.",
+        "9,000 households could lose SNAP benefits, threatening food security for families.",
+        "While jobs here aren’t immediately impacted, these cuts undermine community stability."
+      ],
+      "social_post": "🚨 Rep. Ann Wagner’s support for the Big Beautiful Bill cuts Medicaid for 11,000 Missourians and SNAP for 9,000 households—families lose critical benefits even if jobs here survive. #MO02 #SaveOurFamilies"
+    }
+  },
+  {
+    "district": "OH07",
+    "rep_name": "Rep. Max Miller",
+    "output": {
+      "summary": "In Ohio’s 7th Congressional District, Rep. Max Miller’s backing of the ‘Big Beautiful Bill’ would cut Medicaid for 17,000 residents and slash SNAP benefits for 12,000 households; jobs here may escape direct risk, but families and seniors will still bear the brunt.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "17,000 constituents could lose Medicaid coverage—shattering their access to essential care.",
+        "12,000 households risk losing SNAP benefits, threatening food security for children and seniors.",
+        "Even without an immediate jobs hit, these cuts strain every corner of our community."
+      ],
+      "social_post": "🚨 Rep. Max Miller’s vote on the Big Beautiful Bill cuts Medicaid for 17,000 in OH-07 and SNAP for 12,000 families—our neighbors deserve better. #OH07 #ProtectOurSafetyNet"
+    }
+  },
+  {
+    "district": "OH10",
+    "rep_name": "Rep. Michael Turner",
+    "output": {
+      "summary": "In Ohio’s 10th Congressional District, Rep. Michael Turner’s support for the ‘Big Beautiful Bill’ risks cutting Medicaid for 29,000 people, slashing SNAP for 22,000 households, and threatening 2,635 jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "29,000 Ohioans in our district could lose Medicaid coverage.",
+        "22,000 local families may see their SNAP benefits slashed.",
+        "2,635 jobs here are on the line under this budget proposal."
+      ],
+      "social_post": "🚨 Rep. Michael Turner’s vote for the Big Beautiful Bill endangers Medicaid for 29,000 and SNAP for 22,000 households in OH-10—and 2,635 jobs. #OH10 #HealthCareMatters"
+    }
+  },
+  {
+    "district": "OH15",
+    "rep_name": "Rep. Mike Carey",
+    "output": {
+      "summary": "In Ohio’s 15th Congressional District, the ‘Big Beautiful Bill’ backed by Rep. Mike Carey would strip Medicaid from 29,000 residents, cut SNAP for 20,000 households, and put 378 jobs at risk.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "29,000 neighbors in OH-15 could lose Medicaid coverage.",
+        "20,000 households may see vital SNAP benefits slashed.",
+        "378 jobs here are threatened by these sweeping cuts."
+      ],
+      "social_post": "🚨 Rep. Mike Carey’s support for the Big Beautiful Bill cuts Medicaid for 29,000 and SNAP for 20,000 households—378 jobs at stake in OH-15! #OH15 #SaveOurCommunity"
+    }
+  },
+  {
+    "district": "PA10",
+    "rep_name": "Rep. Scott Perry",
+    "output": {
+      "summary": "In Pennsylvania’s 10th Congressional District, Rep. Scott Perry’s backing of the ‘Big Beautiful Bill’ threatens to cut Medicaid for 20,000 locals, slash SNAP for 20,000 households, and endanger 395 jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "20,000 Pennsylvanians could lose Medicaid coverage under this proposal.",
+        "20,000 households that rely on SNAP may have their food assistance slashed.",
+        "395 jobs in our district hang in the balance because of these cuts."
+      ],
+      "social_post": "🚨 Rep. Scott Perry’s vote for the Big Beautiful Bill risks Medicaid for 20,000, SNAP for 20,000 households, and 395 jobs in PA-10. #PA10 #HealthcareForAll"
+    }
+  },
+  {
+    "district": "TN05",
+    "rep_name": "Rep. Andy Ogles",
+    "output": {
+      "summary": "In Tennessee’s 5th Congressional District, Rep. Andy Ogles’s support for the ‘Big Beautiful Bill’ risks cutting Medicaid for 25,000 people, slashing SNAP for 9,000 households, and putting 145 jobs at risk.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "25,000 residents in our district could lose Medicaid coverage.",
+        "9,000 households that depend on SNAP may have their food assistance slashed.",
+        "145 jobs here are on the line under this budget proposal."
+      ],
+      "social_post": "🚨 Rep. Andy Ogles’s backing of the Big Beautiful Bill cuts Medicaid for 25,000 and SNAP for 9,000 households—145 jobs at risk in TN-05! #TN05 #ProtectOurHealthcare"
+    }
+  },
+  {
+    "district": "WI03",
+    "rep_name": "Rep. Derrick Van Orden",
+    "output": {
+      "summary": "In Wisconsin’s 3rd Congressional District, the ‘Big Beautiful Bill’ backed by Rep. Derrick Van Orden would cut Medicaid for 10,000 residents, slash SNAP for 16,000 households, and threaten 1,808 jobs.",
+      "national_impacts": [
+        "The bill cuts $930 billion from Medicaid, jeopardizing healthcare for millions of Americans.",
+        "The bill cuts over $290 billion from SNAP, putting food assistance for millions of families at risk.",
+        "The bill risks nearly 6 million jobs nationwide, threatening livelihoods across the country."
+      ],
+      "talking_points": [
+        "10,000 Wisconsinites here could lose Medicaid coverage.",
+        "16,000 families that rely on SNAP may see their benefits slashed.",
+        "1,808 jobs are at risk in WI-03 because of these sweeping cuts."
+      ],
+      "social_post": "🚨 Rep. Derrick Van Orden’s vote for the Big Beautiful Bill cuts Medicaid for 10,000 and SNAP for 16,000 households—1,808 jobs at stake in WI-03! #WI03 #SaveOurSafetyNet"
+    }
   }
 ]
